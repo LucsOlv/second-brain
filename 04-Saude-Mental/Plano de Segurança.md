@@ -10,75 +10,74 @@ aliases: [Plano de Segurança]
 
 ---
 
+## 📋 Índice
+
+1. [[Gatilhos|🎯 Os Meus Gatilhos]]
+2. [[Habilidades de Enfrentamento|🛠️ Habilidades de Enfrentamento]]
+3. [[Rede de Apoio|📞 Rede de Apoio]]
+4. [[Formas de Me Manter Ocupado|🎮 Formas de Me Manter Ocupado]]
+5. [[Pontos Fortes|💪 Pontos Fortes]]
+6. [[Recursos Úteis|🔗 Recursos Úteis]]
+7. [[Plano de Ação|🧭 Meu Plano de Ação]]
+
+---
+
 ## 🎯 Os Meus Gatilhos
 
-> O que ativa a crise ou deixa num estado difícil?
+→ [[Gatilhos]]
 
-- [ ]
+<!-- O que ativa a crise ou deixa num estado difícil? -->
 
 ---
 
 ## 🛠️ Habilidades de Enfrentamento
 
-> Técnicas e ferramentas que posso usar quando sentir que estou a perder o controlo.
+→ [[Habilidades de Enfrentamento]]
 
-- [ ]
+<!-- Técnicas e ferramentas que posso usar quando sentir que estou a perder o controlo. -->
 
 ---
 
 ## 📞 Pessoas a Quem Posso Ligar
 
-> Contatos de confiança que podem ajudar em momentos difíceis.
+→ [[Rede de Apoio]]
 
-| Nome | Relação | Telefone | Quando chamar |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+<!-- Contatos de confiança que podem ajudar em momentos difíceis. -->
 
 ---
 
 ## 🎮 Formas de Me Manter Ocupado
 
-> Atividades que me ajudam a distrair e acalmar.
+→ [[Formas de Me Manter Ocupado]]
 
-- [ ]
+<!-- Atividades que me ajudam a distrair e acalmar. -->
 
 ---
 
 ## 💪 Pontos Fortes
 
-> O que me define e me ajuda a superar dificuldades.
+→ [[Pontos Fortes]]
 
-- [ ]
+<!-- O que me define e me ajuda a superar dificuldades. -->
 
 ---
 
 ## 🔗 Outros Recursos Úteis
 
-> Linhas de apoio, apps, profissionais, ou qualquer recurso que possa ajudar.
+→ [[Recursos Úteis]]
 
-### Linhas de Apoio
-- [ ]
-
-### Apps Úteis
-- [ ]
-
-### Profissionais
-- [ ]
+<!-- Linhas de apoio, apps, profissionais, e qualquer recurso que possa ajudar. -->
 
 ---
 
 ## 🧭 Meu Plano de Ação
 
-> Passos concretos a seguir quando sentir que estou a precisar de ajuda.
+→ [[Plano de Ação]]
 
-1. [ ] Quando sentir [...], vou primeiro tentar [...]
-2. [ ] Se não resultar, vou contactar [...]
-3. [ ] Se a situação piorar, vou [...]
+<!-- Passos concretos a seguir quando sentir que estou a precisar de ajuda. -->
 
 ---
 
-## 📝 Notas
+## 📝 Notas Gerais
 
-> Revisado pela última vez:
+> Revisado pela última vez: 2026-04-27

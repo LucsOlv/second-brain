@@ -9,6 +9,9 @@ Visão geral de todos os projetos. Navegue para detalhes.
 - [[PESSOAL]] — Projeto Pessoal
 - [[ONFIAP]] — Curso Online
 - [[AUVP]] — Conteúdo Audiovisual
+- [[Codex]] — Codex CLI (AI coding)
+- [[PaperCLI]] — Paper CLI (pesquisa)
+- [[Hermes Agent]] — Hermes Agent (agent AI)
 
 ## 📊 Status Geral
 
