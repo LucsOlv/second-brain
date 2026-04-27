@@ -7,6 +7,8 @@ Visão geral de todos os projetos. Navegue para detalhes.
 - [[PRION]] — Projeto de Pesquisa
 - [[CEBRASPE]] — Concurso/Estudo
 - [[PESSOAL]] — Projeto Pessoal
+- [[ONFIAP]] — Curso Online
+- [[AUVP]] — Conteúdo Audiovisual
 
 ## 📊 Status Geral
 
@@ -15,6 +17,8 @@ Visão geral de todos os projetos. Navegue para detalhes.
 | [[PRION]] | 🔄 Em progresso | Alta | — |
 | [[CEBRASPE]] | 🔄 Em progresso | Alta | — |
 | [[PESSOAL]] | 🔄 Em progresso | Média | — |
+| [[ONFIAP]] | 🟢 Novo | Média | — |
+| [[AUVP]] | 🔄 Retomar | Média | — |
 
 ## 🔗 Links
 

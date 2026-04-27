@@ -2,7 +2,15 @@
 
 Notas sobre pessoas — contatos, conhecidos, equipe.
 
-## Template
+## 👤 Pessoas
+
+- [[Leonardo - Psicologo]] — Psicólogo (acompanhamento de saúde mental)
+
+## 🏢 Profissionais de Saúde
+
+- [[Leonardo - Psicologo]] — Psicólogo
+
+## 📋 Template
 
 ```yaml
 type: pessoa
@@ -20,6 +28,7 @@ tags: []
 - Atualizar `last_contact` quando houver interação
 - Usar `context` para lembrar de detalhes importantes
 
-## Nomes
+## 🔗 Conectado a
 
-<!-- Lista de pessoas — começar aqui -->
+- [[MOC - Home]]
+- [[MOC - Saúde Mental]]
