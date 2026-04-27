@@ -1,40 +1,60 @@
 ---
 title: AUVP
 type: projeto
-status: active
+status: paused
 priority: medium
-start_date: 
+start_date: ?
 tags: [estudo, consumo, audio-visual]
+relacionado: [[MOC - Projetos]], [[PESSOAL]]
 ---
 
-# AUVP
+# AUVP — Conteúdo Audiovisual
 
-> Status: 🟢 Ativo | Prioridade: Média
+> Status: 🟡 Pausado | Prioridade: 🟡 Média
 
 ```yaml
 type: projeto
-status: active
+status: paused
 priority: medium
-start_date: 
+start_date: ? [quando começou a consumir?]
+deadline:
 tags: [estudo, consumo, audio-visual]
 ```
 
 ## 🎯 Objetivo
 
-<!-- Descrever o objetivo — voltar a consumir conteúdo AUVP -->
+[?] — Qual é o objetivo? Aprender sobre um tema? Descompressão? Desenvolver olho crítico?
 
 ## 📋 Progresso
 
-- [ ] Voltar a consumir
-- [ ] Registrar consumo
-- [ ] Fazer anotações
+| Item | Status | Nota |
+|---|---|---|
+| Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-27]] — Ação para amanhã |
+| Registrar consumo | ⬜ Não iniciado | |
+| Fazer anotações | ⬜ Não iniciado | |
 
-## 📚 Material / Conteúdo
+## 📚 Conteúdo Consumido
 
-<!-- Links para conteúdo consumido -->
-- [[08-Referencias/AUVP]]
+| Data | Tipo | Título | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+## 💡 Insights
+
+<!-- Anotações e insights do conteúdo consumido -->
+
+- [ ] [?] Registrar primeiro insight após retomar consumo
+
+## 📚 Material / Referências
+
+<!-- Links para conteúdo ou referências -->
+
+- [?] Adicionar links relevantes
+
+---
 
 ## 🔗 Conectado a
 
 - [[MOC - Projetos]]
-- [[PESSOAL]]
+- [[PESSOAL]] — projeto pessoal
+- [[MOC - Ideias]] — se gerar insights

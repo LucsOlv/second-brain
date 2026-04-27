@@ -1,52 +1,77 @@
+---
+title: PRION
+type: projeto
+status: active
+priority: high
+start_date: 2026-04-27
+deadline: ?
+tags: [pesquisa, acadêmico, priority-high]
+relacionado: [[MOC - Projetos]], [[CEBRASPE]]
+---
+
 # PRION — Projeto de Pesquisa
 
-> Status: 🔄 Ativo | Prioridade: Alta
+> Status: 🔄 Ativo | Prioridade: 🔴 Alta
 
 ```yaml
 type: projeto
 status: active
 priority: high
-start_date: 
-deadline: 
+start_date: 2026-04-27
+deadline: ? [precisa definir]
 tags: [pesquisa, acadêmico]
 ```
 
 ## 🎯 Objetivo
 
-<!-- Descrever o objetivo do projeto -->
+[?] — Objetivo do projeto ainda não definido nesta nota. Completar antes de avançar.
 
 ## 📋 Descrição
 
-<!-- Detalhes do projeto, metodologia, etc. -->
+[?] — Detalhes da metodologia, área de pesquisa, etc.
 
 ## 📊 Progresso
 
-- [ ] Fase 1: Levantamento bibliográfico
-- [ ] Fase 2: Coleta de dados
-- [ ] Fase 3: Análise
-- [ ] Fase 4: Redação
-- [ ] Fase 5: Revisão e publicação
-
-## 🔗 Pessoas Envolvidas
-
-<!-- Linkar pessoas do projeto -->
-
-## 📚 Referências
-
-- <!-- Linkar notas de referência relevantes -->
+| Fase | Status | Nota |
+|---|---|---|
+| Levantamento bibliográfico | 🔄 Em progresso | Tarefa #2539 concluída em 27/04 |
+| Coleta de dados | ⬜ Não iniciado | |
+| Análise | ⬜ Não iniciado | |
+| Redação | ⬜ Não iniciado | |
+| Revisão e publicação | ⬜ Não iniciado | |
 
 ## 📝 Tarefas
 
-<!-- Linkar tarefas em [[05-Tarefas]] -->
+| # | Descrição | Status | Data |
+|---|---|---|---|
+| 2539 | Tarefa de mejora de atendimento | ✅ Feito | 27/04/2026 |
+| ? | [?] Definir próximas tarefas | 🔜 | |
+
+---
+
+## 🔗 Pessoas Envolvidas
+
+[?] — Linkar pessoas do projeto
+
+## 📚 Referências
+
+- [[PaperCLI]] — ferramenta para gestão de papers acadêmicos
+- [[PRION]] — link para própria nota (auto-referência)
 
 ## 📝 Notas e Logs
 
 ### Log de Progresso
 
-<!-- Registrar marcos e decisões importantes -->
+| Data | Evento |
+|---|---|
+| 2026-04-27 | Tarefa #2539 concluída — mejora de atendimento |
+
+---
 
 ## 🔗 Conectado a
 
 - [[MOC - Projetos]]
 - [[MOC - Referências]]
 - [[MOC - Tarefas]]
+- [[CEBRASPE]] — estudo/concurso relacionado
+- [[PaperCLI]] — útil para pesquisa

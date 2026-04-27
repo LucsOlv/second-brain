@@ -16,24 +16,24 @@ aliases: [Gatilhos, Os Meus Gatilhos]
 
 <!-- Baseado em: [[01-Daily/2026-04-27]] + [[Conforto Térmico]] -->
 
-- [x] **Falta de sono** — acordar às 3h20 resulta em energia baixa (5/10) e pensamentos vagando durante o dia
-- [x] **Ambiente sem vento / abafado** — janela fechada, sem circulação de ar causa incómodo e irritabilidade
-- [x] **Calor sem solução** — sem ventilador ou ar condicionado, desconforto aumenta progressivamente
-- [x] **PC junto à janela** — luz solar direta agrava o incómodo térmico
-- [x] **Excesso de tempo em frente ao PC** — olhos queimando, cabeça pesada, fadiga ocular
-- [x] **Tédio / tempo vazio** — humidade baixa, energia cai, pensamentos começam a vagar
+- [ ] **Falta de sono** — acordar às 3h20 resulta em energia baixa (5/10) e pensamentos vagando durante o dia
+- [ ] **Ambiente sem vento / abafado** — janela fechada, sem circulação de ar causa incómodo e irritabilidade
+- [ ] **Calor sem solução** — sem ventilador ou ar condicionado, desconforto aumenta progressivamente
+- [ ] **PC junto à janela** — luz solar direta agrava o incómodo térmico
+- [ ] **Excesso de tempo em frente ao PC** — olhos queimando, cabeça pesada, fadiga ocular
+- [ ] **Tédio / tempo vazio** — humidade baixa, energia cai, pensamentos começam a vagar
 - [ ] 
 
 ---
 
 ## Padrões Recorrentes
 
-| Padrão | Quando Acontece | Impacto |
-|---|---|---|
-| Sono curto (< 6h) | Acordar eléctrico às 3h20 | Energia 5/10, pensamentos vagando |
-| Calor sem vento | Tarde, janela fechada | Incómodo crescente, irritabilidade |
-| Excesso de PC | Após almoço, 18h+ | Olhos queimando, cabeça pesada |
-| Falta de exercício | Dias sem academia | Energia baixa, humor piora |
+| Padrão             | Quando Acontece           | Impacto                            |
+| ------------------ | ------------------------- | ---------------------------------- |
+| Sono curto (< 6h)  | Acordar eléctrico às 3h20 | Energia 5/10, pensamentos vagando  |
+| Calor sem vento    | Tarde, janela fechada     | Incómodo crescente, irritabilidade |
+| Excesso de PC      | Após almoço, 18h+         | Olhos queimando, cabeça pesada     |
+| Falta de exercício | Dias sem academia         | Energia baixa, humor piora         |
 
 ---
 
