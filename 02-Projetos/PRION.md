@@ -53,8 +53,10 @@ Empresa/consultoria onde atuo como **desenvolvedor full stack**. Desenvolvimento
 
 | # | Descrição | Status | Data |
 |---|---|---|---|
-| 2539 | Tarefa de melhoria de atendimento | ✅ Feito | 27/04/2026 |
-| ? | [?] Definir próxima tarefa | 🔜 | |
+| FE-2539 | Melhoria de Atendimento | ✅ Feito | 27/04/2026 |
+
+**Histórico:**
+- [[05-Tarefas/FE-2539-PRION-melhoria-atendimento|FE-2539]] — Melhoria de atendimento ✅
 
 ## 📝 Notas e Logs
 
