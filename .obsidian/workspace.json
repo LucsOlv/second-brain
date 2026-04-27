@@ -11,14 +11,10 @@
             "id": "5e35a5d0fd844a95",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Saude-Mental/Plano de Segurança.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Plano de Segurança"
+              "title": "Nova aba"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Saude-Mental/Plano de Segurança.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Plano de Segurança"
+              "title": "Links inversos"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-Saude-Mental/Plano de Segurança.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Plano de Segurança"
+              "title": "Links de saída"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-Saude-Mental/Plano de Segurança.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Plano de Segurança"
+              "title": "Sumário"
             }
           }
         ]
@@ -185,33 +178,41 @@
   },
   "active": "5e35a5d0fd844a95",
   "lastOpenFiles": [
-    "04-Saude-Mental/Formas de Me Manter Ocupado.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Recursos Úteis.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Rede de Apoio.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Plano de Ação.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Gatilhos.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Formas de Me Manter Ocupado.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Habilidades de Enfrentamento.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Pontos Fortes.md.tmp",
+    "09-MOCs/~syncthing~MOC - Saúde Mental.md.tmp",
     "04-Saude-Mental/Rede de Apoio.md",
-    "04-Saude-Mental/Gatilhos.md",
-    "04-Saude-Mental/Recursos Úteis.md",
-    "04-Saude-Mental/Habilidades de Enfrentamento.md",
-    "04-Saude-Mental/Pontos Fortes.md",
-    "04-Saude-Mental/Plano de Ação.md",
-    "04-Saude-Mental/~syncthing~Formas de Me Manter Ocupado.md.tmp",
-    "04-Saude-Mental/~syncthing~Rede de Apoio.md.tmp",
-    "04-Saude-Mental/~syncthing~Recursos Úteis.md.tmp",
-    "04-Saude-Mental/~syncthing~Gatilhos.md.tmp",
-    "04-Saude-Mental/~syncthing~Habilidades de Enfrentamento.md.tmp",
-    "04-Saude-Mental/~syncthing~Pontos Fortes.md.tmp",
-    "04-Saude-Mental/~syncthing~Plano de Ação.md.tmp",
-    "01-Daily/2026-04-27.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Pontos Fortes.md",
+    "04-Saude-Mental/02-Bem-Estar/Conforto Térmico.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Rede de Apoio.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Plano de Ação.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Formas de Me Manter Ocupado.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Habilidades de Enfrentamento.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança.md",
+    "04-Saude-Mental/02-Bem-Estar/Treino.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Recursos Úteis.md",
+    "04-Saude-Mental/02-Bem-Estar",
+    "04-Saude-Mental/03-Acompanhamento",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Gatilhos.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca",
     "04-Saude-Mental/Treino.md",
-    "04-Saude-Mental/README.md",
-    "04-Saude-Mental/Plano de Segurança.md",
+    "04-Saude-Mental/Formas de Me Manter Ocupado.md",
     "04-Saude-Mental/Conforto Térmico.md",
+    "04-Saude-Mental/Gatilhos.md",
+    "04-Saude-Mental/Habilidades de Enfrentamento.md",
+    "04-Saude-Mental/Plano de Ação.md",
+    "04-Saude-Mental/Plano de Segurança.md",
+    "04-Saude-Mental/Pontos Fortes.md",
+    "04-Saude-Mental/Recursos Úteis.md",
+    "01-Daily/2026-04-27.md",
+    "04-Saude-Mental/README.md",
     "02-Projetos/Codex.md",
     "02-Projetos/PaperCLI.md",
-    "09-MOCs/~syncthing~MOC - Saúde Mental.md.tmp",
-    "09-MOCs/~syncthing~MOC - Projetos.md.tmp",
-    "01-Daily/~syncthing~2026-04-27.md.tmp",
-    "02-Projetos/Hermes Agent.md",
-    "09-MOCs/MOC - Saúde Mental.md",
-    "00-Inbox/README.md",
-    "README.md"
+    "02-Projetos/Hermes Agent.md"
   ]
 }

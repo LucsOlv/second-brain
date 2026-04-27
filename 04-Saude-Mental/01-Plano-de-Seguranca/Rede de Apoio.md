@@ -1,7 +1,7 @@
 ---
 tags: [saúde-mental, plano-de-segurança, apoio, rede-de-apoio]
 criado: 2026-04-26
-relacionado: [[Plano de Segurança]]
+relacionado: [[04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança]]
 aliases: [Rede de Apoio, Pessoas de Apoio, Contacts]
 ---
 

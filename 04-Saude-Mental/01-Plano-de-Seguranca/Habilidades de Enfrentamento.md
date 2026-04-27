@@ -1,7 +1,7 @@
 ---
 tags: [saúde-mental, plano-de-segurança, habilidades, enfrentamento]
 criado: 2026-04-26
-relacionado: [[Plano de Segurança]]
+relacionado: [[04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança]]
 aliases: [Habilidades de Enfrentamento, Estratégias]
 ---
 

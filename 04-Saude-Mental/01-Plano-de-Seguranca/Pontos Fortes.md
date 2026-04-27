@@ -1,7 +1,7 @@
 ---
 tags: [saúde-mental, plano-de-segurança, pontos-fortes, resiliência]
 criado: 2026-04-26
-relacionado: [[Plano de Segurança]]
+relacionado: [[04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança]]
 aliases: [Pontos Fortes, Forças, Resiliência]
 ---
 

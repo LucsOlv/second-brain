@@ -1,7 +1,7 @@
 ---
 tags: [saúde-mental, plano-de-segurança, plano-de-ação]
 criado: 2026-04-26
-relacionado: [[Plano de Segurança]]
+relacionado: [[04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança]]
 aliases: [Plano de Ação, Ação em Crise]
 ---
 
