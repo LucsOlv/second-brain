@@ -16,10 +16,10 @@ aliases: [Recursos Úteis, Recursos de Apoio]
 
 | Nome | Número | Quando Usar | Disponibilidade |
 |---|---|---|---|
-| Linha de Crisis Portugal | 112 | Emergência | 24/7 |
+| Número de Emergência Portugal | **112** | Emergência, crise aguda | 24/7 |
 | Linha da Esperança | 213 802 420 | Crisis emocional | |
 | SOS Voz Amiga | 228 823 891 | Conversa anônima | |
-| | | | |
+| Linha do Idoso | 228 426 555 | Se aplicável | |
 
 ---
 
@@ -27,10 +27,9 @@ aliases: [Recursos Úteis, Recursos de Apoio]
 
 | App | Para Que Serve | Link |
 |---|---|---|
-| Headspace / Calm | Meditação guiada | |
-| Loop Habit Tracker | Rastrear hábitos e humor | |
-| Forest | Foco e produtividade | |
-| | | |
+| Obsidian | Tracking de humor, energia, sono | — |
+| Calendar (sistema) | Lembretes de consultas Leonardo (28/04) | — |
+| — | — | — |
 
 ---
 
@@ -38,31 +37,36 @@ aliases: [Recursos Úteis, Recursos de Apoio]
 
 | Serviço | Contacto | Nota |
 |---|---|---|
-| Centro de Saúde | | |
-| Psiquiatra | | |
-| Psicologia SNS | | |
-| | | |
+| [[Leonardo - Psicologo]] — Psicologia | — | Próxima consulta 28/04. Contactar em crise. |
+| [[03-Pessoas/Ricardo - Nutrologo]] — Nutrição | — | Melhorar sono, energia, alimentação |
+| Centro de Saúde SNS | — | — |
 
 ---
 
 ## 📚 Materiais de Auto-ajuda
 
-<!-- Livros, sites, vídeos, podcasts que ajudem -->
+<!-- Baseado em: projetos ativos no vault -->
 
 | Recurso | Tipo | Link |
 |---|---|---|
-| | livro | |
-| | site | |
-| | vídeo | |
+| [[01-Daily/2026-04-27]] — Daily note template | Template | Uso diário — tracking energia/humor |
+| [[Conforto Térmico]] | Notion/experiência | Soluções térmicas testadas |
+| [[Treino]] | Fitness | Rotina e histórico de treino |
 
 ---
 
-## Notas
+## 🏠 Recursos Ambientais
 
-<!-- O que já usei e funcionou? O que quero explorar? -->
+<!-- Baseado em: [[Conforto Térmico]] -->
 
-- [ ] 
+| Recurso | Estado | Nota |
+|---|---|---|
+| Ventilador | ✅ Disponível | Primeira linha de defesa contra calor |
+| Banho | ✅ Disponível | Solução imediata para incómodo térmico |
+| Janela | ⚠️ Sensível | Funciona se houver vento; se não, fechar |
+| Ar Condicionado | ❌ Não disponível | — |
+| Academia | ✅ Disponível | Aberta às 5h, 40min de treino |
 
 ---
 
-*Última revisão: 2026-04-26*
+*Última revisão: 2026-04-27*

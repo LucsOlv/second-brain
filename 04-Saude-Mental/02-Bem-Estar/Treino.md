@@ -3,6 +3,7 @@ title: Rotina de Treino
 type: fitness
 date: 2026-04-27
 tags: [saude-mental, fitness, academia, treino]
+relacionado: [[01-Plano-de-Seguranca/Gatilhos]], [[01-Plano-de-Seguranca/Habilidades de Enfrentamento]], [[01-Plano-de-Seguranca/Formas de Me Manter Ocupado]]
 ---
 
 # 💪 Rotina de Treino

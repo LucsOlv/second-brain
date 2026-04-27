@@ -11,10 +11,14 @@
             "id": "5e35a5d0fd844a95",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04-Saude-Mental/01-Plano-de-Seguranca/Gatilhos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Gatilhos"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04-Saude-Mental/01-Plano-de-Seguranca/Gatilhos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Links inversos para Gatilhos"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04-Saude-Mental/01-Plano-de-Seguranca/Gatilhos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para Gatilhos"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "04-Saude-Mental/01-Plano-de-Seguranca/Gatilhos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de Gatilhos"
             }
           }
         ]
@@ -178,28 +185,29 @@
   },
   "active": "5e35a5d0fd844a95",
   "lastOpenFiles": [
+    "03-Pessoas/~syncthing~Leonardo - Psicologo.md.tmp",
+    "03-Pessoas/Ricardo - Nutrologo.md",
     "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Recursos Úteis.md.tmp",
     "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Rede de Apoio.md.tmp",
+    "03-Pessoas/~syncthing~Ricardo - Nutrologo.md.tmp",
+    "04-Saude-Mental/02-Bem-Estar/~syncthing~Treino.md.tmp",
     "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Plano de Ação.md.tmp",
-    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Gatilhos.md.tmp",
-    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Formas de Me Manter Ocupado.md.tmp",
     "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Habilidades de Enfrentamento.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Formas de Me Manter Ocupado.md.tmp",
+    "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Gatilhos.md.tmp",
     "04-Saude-Mental/01-Plano-de-Seguranca/~syncthing~Pontos Fortes.md.tmp",
-    "09-MOCs/~syncthing~MOC - Saúde Mental.md.tmp",
-    "04-Saude-Mental/Rede de Apoio.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança.md",
     "04-Saude-Mental/01-Plano-de-Seguranca/Pontos Fortes.md",
-    "04-Saude-Mental/02-Bem-Estar/Conforto Térmico.md",
+    "04-Saude-Mental/01-Plano-de-Seguranca/Recursos Úteis.md",
     "04-Saude-Mental/01-Plano-de-Seguranca/Rede de Apoio.md",
+    "04-Saude-Mental/~syncthing~README.md.tmp",
+    "04-Saude-Mental/Rede de Apoio.md",
+    "04-Saude-Mental/02-Bem-Estar/Conforto Térmico.md",
     "04-Saude-Mental/01-Plano-de-Seguranca/Plano de Ação.md",
     "04-Saude-Mental/01-Plano-de-Seguranca/Formas de Me Manter Ocupado.md",
     "04-Saude-Mental/01-Plano-de-Seguranca/Habilidades de Enfrentamento.md",
-    "04-Saude-Mental/01-Plano-de-Seguranca/Plano de Segurança.md",
     "04-Saude-Mental/02-Bem-Estar/Treino.md",
-    "04-Saude-Mental/01-Plano-de-Seguranca/Recursos Úteis.md",
-    "04-Saude-Mental/02-Bem-Estar",
-    "04-Saude-Mental/03-Acompanhamento",
     "04-Saude-Mental/01-Plano-de-Seguranca/Gatilhos.md",
-    "04-Saude-Mental/01-Plano-de-Seguranca",
     "04-Saude-Mental/Treino.md",
     "04-Saude-Mental/Formas de Me Manter Ocupado.md",
     "04-Saude-Mental/Conforto Térmico.md",
@@ -212,7 +220,6 @@
     "01-Daily/2026-04-27.md",
     "04-Saude-Mental/README.md",
     "02-Projetos/Codex.md",
-    "02-Projetos/PaperCLI.md",
-    "02-Projetos/Hermes Agent.md"
+    "02-Projetos/PaperCLI.md"
   ]
 }

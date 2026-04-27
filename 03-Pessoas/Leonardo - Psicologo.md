@@ -3,9 +3,10 @@ title: Leonardo — Psicólogo
 type: pessoa
 name: Leonardo
 role: Psicólogo
-contact: 
-specialty: 
-session_frequency: 
+contact:
+specialty: Estratégias concretas para gestão emocional e mental
+session_frequency: semanal
+next_session: 2026-04-28
 tags: [saude-mental, profissional, acompanhamento]
 related_projects: []
 ---
@@ -16,15 +17,16 @@ related_projects: []
 type: pessoa
 name: Leonardo
 role: Psicólogo
-contact: 
-specialty: 
+contact:
+specialty: Estratégias concretas para gestão emocional e mental
 next_session: 2026-04-28
 ```
 
 ## 📋 Informações
 
-**Especialidade:**  
-**Frequência:**  
+**Especialidade:** Estratégias práticas de gestão emocional e mental  
+**Frequência:** Semanal  
+**PAPEL NO PLANO DE SEGURANÇA:** Primeiro contacto profissional em crise emocional  
 
 ## 📅 Próxima Sessão
 

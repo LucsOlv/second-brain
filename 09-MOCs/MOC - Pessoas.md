@@ -9,7 +9,8 @@ Contatos e pessoas importantes. Cada nota individual para detalhes.
 ## 🎯 Pessoas Principais
 
 <!-- As pessoas mais importantes/ativos -->
-- Nenhuma pessoa cadastrada ainda — começar em [[03-Pessoas]]
+- [[Leonardo - Psicologo]] — Psicólogo (próxima consulta: **28/04/2026**)
+- [[03-Pessoas/Ricardo - Nutrologo]] — Nutrologista (melhorar sono e energia)
 
 ## 📅 Contatos Recentes
 
