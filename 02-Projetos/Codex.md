@@ -4,7 +4,7 @@ type: projeto
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, cli, coding, openai, priority-high]
+tags: [ai, cli, coding, openai]
 relacionado: [[MOC - Projetos]], [[Hermes Agent]]
 ---
 

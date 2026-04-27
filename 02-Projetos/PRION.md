@@ -5,7 +5,7 @@ status: active
 priority: high
 start_date: 2026-04-27
 deadline: ?
-tags: [pesquisa, acadêmico, priority-high]
+tags: [pesquisa, academico]
 relacionado: [[MOC - Projetos]], [[CEBRASPE]]
 ---
 
@@ -19,7 +19,7 @@ status: active
 priority: high
 start_date: 2026-04-27
 deadline: ? [precisa definir]
-tags: [pesquisa, acadêmico]
+tags: [pesquisa, academico]
 ```
 
 ## 🎯 Objetivo

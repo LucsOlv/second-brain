@@ -4,7 +4,7 @@ type: ferramenta
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, agent, cli, hermes, second-brain]
+tags: [ai, agent, cli, hermes, secondbrain]
 relacionado: [[MOC - Projetos]], [[Codex]]
 ---
 
@@ -17,7 +17,7 @@ type: ferramenta
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, agent, cli, hermes, second-brain]
+tags: [ai, agent, cli, hermes, secondbrain]
 ```
 
 ## 🎯 Objetivo

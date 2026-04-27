@@ -3,8 +3,8 @@ title: AUVP
 type: projeto
 status: paused
 priority: medium
-start_date: ?
-tags: [estudo, consumo, audio-visual]
+start_date: 
+tags: [estudo, consumo, audiovisual]
 relacionado: [[MOC - Projetos]], [[PESSOAL]]
 ---
 
@@ -18,7 +18,7 @@ status: paused
 priority: medium
 start_date: ? [quando começou a consumir?]
 deadline:
-tags: [estudo, consumo, audio-visual]
+tags: [estudo, consumo, audiovisual]
 ```
 
 ## 🎯 Objetivo
