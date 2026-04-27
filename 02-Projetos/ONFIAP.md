@@ -4,11 +4,11 @@ type: projeto
 status: active
 priority: medium
 start_date: 2026-04-27
-tags: [estudo, curso, online]
+tags: [estudo, pos-graduacao, curso]
 relacionado: [[MOC - Projetos]], [[PESSOAL]]
 ---
 
-# ONFIAP
+# ONFIAP — Pós-Graduação
 
 > Status: 🟢 Ativo | Prioridade: 🟡 Média | Iniciado: 27/04/2026
 
@@ -17,13 +17,12 @@ type: projeto
 status: active
 priority: medium
 start_date: 2026-04-27
-deadline: ?
-tags: [estudo, curso, online]
+tags: [estudo, pos-graduacao, curso]
 ```
 
-## 🎯 Objetivo
+## 🎯 Sobre
 
-[?] — Qual é o objetivo deste curso? Área, certificação, conhecimento?
+**Pós-graduação** — curso de especialização. Desenvolvimento académico e profissional.
 
 ## 📚 Aulas
 
@@ -38,13 +37,13 @@ tags: [estudo, curso, online]
 - [ ] Assistir 2 aulas por dia (meta diária)
 - [ ] Fazer resumos de cada aula
 - [ ] Revisar conteúdo semanalmente
-- [ ] [?] Completar todas as aulas do módulo
+- [ ] [?] Completar todos os módulos
 
 **Nota:** [[01-Daily/2026-04-27]] — Ação para amanhã: ver pelo menos 2 aulas e fazer um resumo.
 
 ### Próxima Aula
 
-[?] — Qual é a próxima aula a assistir? Atualizar após cada sessão.
+[?] — Qual é a próxima aula a assistir? Actualizar após cada sessão.
 
 ## 📝 Resumos
 
@@ -63,5 +62,4 @@ tags: [estudo, curso, online]
 ## 🔗 Conectado a
 
 - [[MOC - Projetos]]
-- [[MOC - Estudos]] — [?] criar se não existir
 - [[PESSOAL]] — projeto pessoal

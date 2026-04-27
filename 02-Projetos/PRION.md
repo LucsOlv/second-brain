@@ -4,31 +4,39 @@ type: projeto
 status: active
 priority: high
 start_date: 2026-04-27
-deadline: ?
-tags: [pesquisa, academico]
-relacionado: [[MOC - Projetos]], [[CEBRASPE]]
+tags: [trabalho, ti, fullstack]
+relacionado: [[MOC - Projetos]]
 ---
 
-# PRION — Projeto de Pesquisa
+# PRION — Desenvolvimento Full Stack
 
-> Status: 🔄 Ativo | Prioridade: 🔴 Alta
+> Status: 🔄 Ativo | Prioridade: 🔴 Alta | Cargo: Desenvolvedor Full Stack
 
 ```yaml
 type: projeto
 status: active
 priority: high
 start_date: 2026-04-27
-deadline: ? [precisa definir]
-tags: [pesquisa, academico]
+tags: [trabalho, ti, fullstack]
 ```
 
-## 🎯 Objetivo
+## 🎯 Sobre
 
-[?] — Objetivo do projeto ainda não definido nesta nota. Completar antes de avançar.
+Empresa/consultoria onde atuo como **desenvolvedor full stack**. Desenvolvimento de sistemas web.
 
-## 📋 Descrição
+> ⚠️ Empresa completamente separada da CEBRASPE — sem qualquer vínculo entre os dois projetos.
 
-[?] — Detalhes da metodologia, área de pesquisa, etc.
+## 📋 Info Profissional
+
+[?] — Adicionar email, ambientes, links de repositório
+
+## 🛠️ Stack Tecnológica
+
+[?] — Quais tecnologias são usadas? (Node, .NET, React, etc.)
+
+## 📋 Repositórios
+
+[?] — Links dos repositórios
 
 ## 📊 Progresso
 
@@ -37,26 +45,16 @@ tags: [pesquisa, academico]
 | Levantamento bibliográfico | 🔄 Em progresso | Tarefa #2539 concluída em 27/04 |
 | Coleta de dados | ⬜ Não iniciado | |
 | Análise | ⬜ Não iniciado | |
-| Redação | ⬜ Não iniciado | |
-| Revisão e publicação | ⬜ Não iniciado | |
+| Código | 🔄 Em progresso | |
+| Code Review | ⬜ | |
+| Deploy | ⬜ | |
 
-## 📝 Tarefas
+## 📝 Tarefas Activas
 
 | # | Descrição | Status | Data |
 |---|---|---|---|
-| 2539 | Tarefa de mejora de atendimento | ✅ Feito | 27/04/2026 |
-| ? | [?] Definir próximas tarefas | 🔜 | |
-
----
-
-## 🔗 Pessoas Envolvidas
-
-[?] — Linkar pessoas do projeto
-
-## 📚 Referências
-
-- [[PaperCLI]] — ferramenta para gestão de papers acadêmicos
-- [[PRION]] — link para própria nota (auto-referência)
+| 2539 | Tarefa de melhoria de atendimento | ✅ Feito | 27/04/2026 |
+| ? | [?] Definir próxima tarefa | 🔜 | |
 
 ## 📝 Notas e Logs
 
@@ -64,14 +62,13 @@ tags: [pesquisa, academico]
 
 | Data | Evento |
 |---|---|
-| 2026-04-27 | Tarefa #2539 concluída — mejora de atendimento |
+| 2026-04-27 | Tarefa #2539 concluída — melhoria de atendimento |
 
 ---
 
 ## 🔗 Conectado a
 
 - [[MOC - Projetos]]
-- [[MOC - Referências]]
 - [[MOC - Tarefas]]
-- [[CEBRASPE]] — estudo/concurso relacionado
-- [[PaperCLI]] — útil para pesquisa
+- [[CEBRASPE]] — (empresa separada, mesmo cargo)
+- [[PaperCLI]] — útil para pesquisa técnica

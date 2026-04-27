@@ -1,27 +1,24 @@
 # 📂 MOC — Projetos
 
-Visão geral de todos os projetos. Navegue para detalhes.
+Visão geral de todos os projectos. Navegue para detalhes.
 
-## 🔴 Alta Prioridade — Trabalho
+## 💼 Trabalho
+
+| Projeto | Cargo | Status | Próxima Ação |
+|---|---|---|---|
+| [[CEBRASPE]] | Desenvolvedor Full Stack | 🔄 Em progresso | Melhoria de atendimento |
+| [[PRION]] | Desenvolvedor Full Stack | 🔄 Em progresso | [?] Definir tarefa |
+
+> ⚠️ CEBRASPE e PRION são empresas completamente separadas — sem vínculo entre si.
+
+## 📖 Estudos
 
 | Projeto | Tipo | Status | Próxima Ação |
 |---|---|---|---|
-| [[CEBRASPE]] | 💼 Desenvolvedor Full Stack | 🔄 Em progresso | Melhoria de atendimento |
+| [[ONFIAP]] | Pós-graduação | 🟢 Novo (iniciado 27/04) | Assistir 2 aulas + resumo |
+| [[AUVP]] | Curso de investimento | 🟡 Pausado | Voltar a consumir |
 
-## 🔴 Alta Prioridade — Pessoal
-
-| Projeto | Status | Próxima Ação |
-|---|---|---|
-| [[PRION]] | 🔄 Em progresso | [?] Definir tarefa seguinte |
-
-## 🟡 Média Prioridade — Estudos
-
-| Projeto | Status | Próxima Ação |
-|---|---|---|
-| [[ONFIAP]] | 🟢 Novo (iniciado 27/04) | Assistir 2 aulas + resumo |
-| [[AUVP]] | 🟡 Pausado | Voltar a consumir |
-
-## 🟡 Média Prioridade — Pessoal
+## 📋 Pessoal
 
 | Projeto | Status | Nota |
 |---|---|---|
@@ -29,24 +26,23 @@ Visão geral de todos os projetos. Navegue para detalhes.
 
 ## 🛠️ Ferramentas
 
-| Ferramenta | Uso | Status |
+> Ver em [[10-Wiki/README|WIKI]] — Codex, PaperCLI, Hermes Agent
+
+| Ferramenta | Status | Uso |
 |---|---|---|
-| [[Codex]] | Coding assistido (CLI) | ✅ Activo — quota limitada |
-| [[PaperCLI]] | Pesquisa académica (CLI) | ✅ Activo — exploração |
-| [[Hermes Agent]] | Second brain automatizado | ✅ Activo — produção |
+| [[10-Wiki/Codex]] | ✅ Activo | Coding assistido (cota limitada) |
+| [[10-Wiki/PaperCLI]] | ✅ Activo | Pesquisa agentic |
+| [[10-Wiki/Hermes Agent]] | ✅ Activo | Second brain automatizado |
 
 ## 📊 Status Geral
 
 | Projeto | Tipo | Status | Prioridade | Próxima Ação |
 |---|---|---|---|---|
 | [[CEBRASPE]] | 💼 Trabalho | 🔄 | 🔴 Alta | Melhoria de atendimento |
-| [[PRION]] | 📚 Pessoal | 🔄 | 🔴 Alta | [?] Definir |
+| [[PRION]] | 💼 Trabalho | 🔄 | 🔴 Alta | [?] Definir |
 | [[ONFIAP]] | 📖 Estudo | 🟢 | 🟡 Média | 2 aulas/dia |
-| [[AUVP]] | 🎬 Estudo | 🟡 | 🟡 Média | Voltar a consumir |
+| [[AUVP]] | 📖 Estudo | 🟡 | 🟡 Média | Voltar a consumir |
 | [[PESSOAL]] | 📋 Pessoal | 🔄 | 🟡 Média | ONFIAP + AUVP |
-| [[Codex]] | 🛠️ Ferramenta | 🟢 | 🔴 Alta | Usar com moderação |
-| [[PaperCLI]] | 🛠️ Ferramenta | 🟢 | 🟡 Média | Explorar |
-| [[Hermes Agent]] | 🛠️ Ferramenta | 🟢 | 🔴 Alta | Manter activo |
 
 ## 📅 Hoje
 
@@ -58,7 +54,8 @@ Visão geral de todos os projetos. Navegue para detalhes.
 
 ## 🔗 Links
 
-- [[02-Projetos/README|Projetos]] — Pasta com todos os projetos
+- [[02-Projetos/README|Projetos]] — Pasta com projectos
+- [[10-Wiki/README|WIKI]] — Ferramentas e referências
 - [[MOC - Tarefas]] — Ver tarefas por projeto
 - [[MOC - Home]] — Voltar ao hub
 

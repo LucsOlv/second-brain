@@ -1,36 +1,36 @@
 ---
 title: Codex CLI
-type: projeto
+type: ferramenta
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, cli, coding, openai]
-relacionado: [[MOC - Projetos]], [[Hermes Agent]]
+tags: [ai, cli, coding, openai, ferramenta]
 ---
 
 # Codex CLI
 
-> Status: 🟢 Ativo | Prioridade: 🔴 Alta | Iniciado: 27/04/2026
+> Ferramenta de coding assistido da OpenAI — assistente AI via linha de comando.
 
 ```yaml
-type: projeto
+type: ferramenta
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, cli, coding, openai]
+tags: [ai, cli, coding, openai, ferramenta]
 ```
 
-## 🎯 Objetivo
+## 🎯 O Que É
 
-Usar o Codex CLI da OpenAI como assistente de coding via linha de comando. Integrar com o fluxo de trabalho do Hermes Agent.
+Codex CLI é o assistente de coding da OpenAI, acessível via linha de comando. Executa tarefas de programação autónomo com base em prompts em linguagem natural.
 
 ## ⚙️ Configuração
 
 ```bash
-#Localização
+# Localização
 ~/.hermes/hermes-agent/scripts/telegram-codex-linear-bridge/src/codex.js
 
-#Modo: --dangerously-bypass-approvals-and-sandbox (sandbox desativado)
+# Modo actual: sandbox desativado
+--dangerously-bypass-approvals-and-sandbox
 ```
 
 ## 📋 Uso
@@ -49,17 +49,9 @@ Usar o Codex CLI da OpenAI como assistente de coding via linha de comando. Integ
 ## 💡 Insights
 
 - Cota esgota-se rapidamente com testes de estresse
-- É melhor usar para tarefas concretas, não para explorar
-- Configuração actual: `--dangerously-bypass-approvals-and-sandbox` (sem restriçoes)
+- Melhor usar para tarefas concretas, não para explorar
+- Configuração actual: `--dangerously-bypass-approvals-and-sandbox`
 - Integra com Telegram via bridge (`telegram-codex-linear-bridge`)
-
-## 🔧 Otimização
-
-| Estratégia | Status | Nota |
-|---|---|---|
-| Limitar uso a tarefas críticas | 🔜 Por implementar | |
-| Usar como fallback, não como primeira opção | 🔜 Por implementar | |
-| Monitorar consumo de cota | 🔜 Por implementar | |
 
 ## ⚠️ Limitações Conhecidas
 
@@ -76,6 +68,4 @@ Usar o Codex CLI da OpenAI como assistente de coding via linha de comando. Integ
 ## 🔗 Conectado a
 
 - [[Hermes Agent]] — integração com agent
-- [[Codex]] — esta nota (auto-referência)
-- [[MOC - Projetos]]
-- [[01-Daily/2026-04-27]] — Testes do dia 27/04
+- [[MOC - Projetos]] (referência)

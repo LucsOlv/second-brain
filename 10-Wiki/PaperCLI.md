@@ -1,28 +1,27 @@
 ---
-title: Paper CLI
+title: PaperCLI
 type: ferramenta
 status: active
 priority: medium
 start_date: 2026-04-27
-tags: [cli, pesquisa, paper]
-relacionado: [[MOC - Projetos]], [[PRION]]
+tags: [cli, pesquisa, agent, ferramenta]
 ---
 
-# Paper CLI
+# PaperCLI
 
-> Ferramenta para gerir e analisar papers acadêmicos via linha de comando.
+> CLI agentic para pesquisa académica — gerir e analisar papers via linha de comando.
 
 ```yaml
 type: ferramenta
 status: active
 priority: medium
 start_date: 2026-04-27
-tags: [cli, pesquisa, paper]
+tags: [cli, pesquisa, agent, ferramenta]
 ```
 
-## 🎯 Objetivo
+## 🎯 O Que É
 
-Facilitar pesquisa académica: buscar, organizar e analisar papers diretamente do terminal.
+PaperCLI é uma ferramenta de linha de comando com capacidades de agente (agentic) — permite buscar, organizar e analisar papers académicos automaticamente, interpretando contexto e decidindo os próximos passos.
 
 ## 📋 Uso
 
@@ -35,6 +34,9 @@ paper-cli search <query>
 
 # Listar biblioteca
 paper-cli list
+
+# Analisar paper
+paper-cli analyze <paper-id>
 ```
 
 ## 📋 Uso no Vault
@@ -46,19 +48,18 @@ paper-cli list
 ## 💡 Insights
 
 -仍未 explorado completamente — mais funcionalidades a descobrir
-- Potencial para automatizar pesquisa do [[PRION]]
+- Potencial para automatizar pesquisa em projectos de desenvolvimento
 - Pode ser integrado com o [[Hermes Agent]] para busca automática
 
 ## 📝 Próximos Passos
 
 - [ ] Explorar mais funcionalidades
-- [ ] Testar busca para tema do PRION
+- [ ] Testar busca para tema do [[PRION]]
 - [ ] Configurar biblioteca de papers
 
 ---
 
 ## 🔗 Conectado a
 
-- [[PRION]] — útil para pesquisa académica
-- [[MOC - Projetos]]
 - [[Hermes Agent]] — potencial integração
+- [[MOC - Projetos]] (referência)

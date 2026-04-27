@@ -3,12 +3,12 @@ title: AUVP
 type: projeto
 status: paused
 priority: medium
-start_date: 
-tags: [estudo, consumo, audiovisual]
+start_date: ?
+tags: [estudo, investimento, curso]
 relacionado: [[MOC - Projetos]], [[PESSOAL]]
 ---
 
-# AUVP — Conteúdo Audiovisual
+# AUVP — Curso de Investimento
 
 > Status: 🟡 Pausado | Prioridade: 🟡 Média
 
@@ -16,40 +16,35 @@ relacionado: [[MOC - Projetos]], [[PESSOAL]]
 type: projeto
 status: paused
 priority: medium
-start_date: ? [quando começou a consumir?]
-deadline:
-tags: [estudo, consumo, audiovisual]
+start_date: ? [quando começou?]
+tags: [estudo, investimento, curso]
 ```
 
-## 🎯 Objetivo
+## 🎯 Sobre
 
-[?] — Qual é o objetivo? Aprender sobre um tema? Descompressão? Desenvolver olho crítico?
+**Curso de investimento** — aprender sobre investimentos financeiros.
 
 ## 📋 Progresso
 
 | Item | Status | Nota |
 |---|---|---|
 | Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-27]] — Ação para amanhã |
-| Registrar consumo | ⬜ Não iniciado | |
-| Fazer anotações | ⬜ Não iniciado | |
+| Completar módulos | ⬜ Não iniciado | |
+| Fazer exercícios | ⬜ Não iniciado | |
 
-## 📚 Conteúdo Consumido
+## 📚 Módulos
 
-| Data | Tipo | Título | Nota |
-|---|---|---|---|
-| — | — | — | — |
+| Módulo | Status | Nota |
+|---|---|---|
+| [?] Módulo 1 | ⬜ | |
+| [?] Módulo 2 | ⬜ | |
+| [?] Módulo 3 | ⬜ | |
 
-## 💡 Insights
+## 📊 Histórico
 
-<!-- Anotações e insights do conteúdo consumido -->
-
-- [ ] [?] Registrar primeiro insight após retomar consumo
-
-## 📚 Material / Referências
-
-<!-- Links para conteúdo ou referências -->
-
-- [?] Adicionar links relevantes
+| Data | Actividade | Nota |
+|---|---|---|
+| — | — | — |
 
 ---
 
@@ -57,4 +52,3 @@ tags: [estudo, consumo, audiovisual]
 
 - [[MOC - Projetos]]
 - [[PESSOAL]] — projeto pessoal
-- [[MOC - Ideias]] — se gerar insights

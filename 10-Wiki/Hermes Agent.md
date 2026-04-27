@@ -4,8 +4,7 @@ type: ferramenta
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, agent, cli, hermes, secondbrain]
-relacionado: [[MOC - Projetos]], [[Codex]]
+tags: [ai, agent, cli, hermes, secondbrain, ferramenta]
 ---
 
 # Hermes Agent
@@ -17,18 +16,12 @@ type: ferramenta
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [ai, agent, cli, hermes, secondbrain]
+tags: [ai, agent, cli, hermes, secondbrain, ferramenta]
 ```
 
-## 🎯 Objetivo
+## 🎯 O Que É
 
-Agente AI que funciona como second brain, fazendo:
-- 📝 Gestão de notas Obsidian (criar, atualizar, linked notes)
-- 🔄 Sincronização com GitHub (commit automático a cada mudança)
-- 💬 Comunicação via Discord / Telegram / API Server
-- 🔗 Criação automática de links e conexões entre notas
-- 🔁 Tarefas recorrentes via cron jobs
-- 🌐 Acesso a ferramentas (web, terminal, browser, etc.)
+Hermes Agent é o agente AI que funciona como second brain automatizado. Corre como serviço systemd no servidor e conecta com múltiplas plataformas.
 
 ## ⚙️ Stack Técnica
 
@@ -48,9 +41,9 @@ Agente AI que funciona como second brain, fazendo:
 | Discord | ✅ Conectado | Canal `#geral`, thread `Obsidian` |
 | Telegram | ✅ Conectado | Comandos `/codex`, `/health`, `/help` |
 | API Server | ✅ Conectado | |
-| Obsidian sync | ✅ Ativo | GitHub auto-commit |
+| Obsidian sync | ✅ Activo | GitHub auto-commit |
 | Syncthing | ✅ Configurado | Device: `HGWK4Y3...`, LAN: `192.168.1.242:8384` |
-| Docker | ✅ Ativo | Portainer, AI Control Center |
+| Docker | ✅ Activo | Portainer, AI Control Center |
 
 ## 📋 Cron Jobs Activos
 
@@ -61,23 +54,21 @@ Agente AI que funciona como second brain, fazendo:
 | 12:00 | Auto-commit Obsidian | GitHub |
 | 18:00 | Auto-commit Obsidian | GitHub |
 
-## 📝 Notas
-
-- Corre como serviço systemd no servidor
-- Usa skills para tarefas recorrentes (Obsidian, GitHub, Telegram, etc.)
-- Memory persistente: preferences, environment facts, tool quirks
-- Skills carregadas automaticamente quando relevantes
-
 ## 🔧 Configurações Actuais
 
 - Modelo default: `gpt-5.4-mini` (provider: `openai`, base_url: vazio)
 - Codex: `--dangerously-bypass-approvals-and-sandbox` (sandbox desativado)
 
+## 📝 Notas
+
+- Memory persistente: preferences, environment facts, tool quirks
+- Skills carregadas automaticamente quando relevantes
+- Pasta de scripts: `~/.hermes/hermes-agent/scripts/`
+
 ---
 
 ## 🔗 Conectado a
 
-- [[Codex]] — Codex CLI para coding (bridge em `telegram-codex-linear-bridge/`)
-- [[MOC - Projetos]]
+- [[Codex]] — Codex CLI para coding
+- [[MOC - Projetos]] (referência)
 - [[01-Daily/2026-04-27]] — Configuração e uso
-- [[04-Saude-Mental/README| Saúde Mental]] — gestão de bem-estar
