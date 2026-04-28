@@ -46,11 +46,14 @@ Visão geral de todos os projectos. Navegue para detalhes.
 
 ## 📅 Hoje
 
-> Baseado em [[01-Daily/2026-04-27]]
+> Baseado em [[01-Daily/2026-04-28]]
 
-- [ ] [[CEBRASPE]] — Revisar tarefa de melhoria de atendimento
-- [ ] [[ONFIAP]] — Ver pelo menos 2 aulas e fazer um resumo
-- [ ] [[AUVP]] — Voltar a consumir
+- [ ] [[CEBRASPE]] — Falar com a Samanta sobre a VPN (deu ruim)
+- [ ] [[Leonardo - Psicologo]] — Consulta com o Psicólogo Leonardo - confirmada 18:30
+- [ ] [[ONFIAP]] — Ver pelo menos 2 aulas e fazer resumo - amanha
+- [ ] [[AUVP]] — Voltar a consumir - amanha
+- [ ] [[PRION]] — [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] terminar implementações
+
 
 ## 🔗 Links
 

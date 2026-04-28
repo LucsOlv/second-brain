@@ -54,9 +54,15 @@ Empresa/consultoria onde atuo como **desenvolvedor full stack**. Desenvolvimento
 | # | Descrição | Status | Data |
 |---|---|---|---|
 | FE-2539 | Melhoria de Atendimento | ✅ Feito | 27/04/2026 |
+| FE-2480 | Terminar implementações | 🔄 Em progresso | 28/04/2026 |
 
 **Histórico:**
 - [[05-Tarefas/FE-2539-PRION-melhoria-atendimento|FE-2539]] — Melhoria de atendimento ✅
+- [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] — Terminar implementações 🔄
+
+## 📝 Próxima Ação
+
+- [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] — terminar implementações e validar em dev
 
 ## 📝 Notas e Logs
 
