@@ -59,7 +59,7 @@ Visão geral de todos os projectos. Navegue para detalhes.
 
 - [[02-Projetos/README|Projetos]] — Pasta com projectos
 - [[10-Wiki/README|WIKI]] — Ferramentas e referências
-- [[MOC - Tarefas]] — Ver tarefas por projeto
+- [[MOC - Tarefas]] — Ver tasks em kanban
 - [[MOC - Home]] — Voltar ao hub
 
 ## 📋 Projetos Arquivados

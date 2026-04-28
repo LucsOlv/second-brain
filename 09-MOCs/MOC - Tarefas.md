@@ -1,40 +1,49 @@
-# ✅ MOC — Tarefas
+---
+title: MOC - Tarefas
+type: moc
+tags:
+  - tarefas
+  - kanban
+  - secondbrain
+---
 
-Visão geral de todas as tarefas ativas. Organizado por prioridade.
+# 🗂️ MOC — Tarefas
 
-## 🔴 Alta Prioridade
+Kanban manual de tudo que é task no vault.
 
-<!-- Tarefas HIGH -->
+## 🟦 Todo
 
-## 🟡 Média Prioridade
+- [[05-Tarefas/ONFIAP-2026-04-29-2-aulas-resumo|ONFIAP — assistir 2 aulas e fazer resumo]]
+- [[05-Tarefas/AUVP-2026-04-29-voltar-a-consumir|AUVP — voltar a consumir]]
 
-<!-- Tarefas MEDIUM -->
+## 🟨 Doing
 
-## 🟢 Baixa Prioridade
+- [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480 — PRION — terminar implementações]]
+- [[05-Tarefas/FE-22389|FE-22389 — CEBRASPE]]
 
-<!-- Tarefas LOW -->
+## 🟩 Done
 
-## 📋 Tarefas por Projeto
+- [[05-Tarefas/FE-2539-PRION-melhoria-atendimento|FE-2539 — Melhoria de Atendimento]]
+- [[05-Tarefas/CB-20260428-Samanta-vpn-cebraspe|Samanta — VPN do CEBRASPE]]
+- [[05-Tarefas/LT-20260428-Leonardo-sessao|Sessão com Leonardo — 2026-04-28]]
 
-### [[PRION]]
-<!-- Tarefas do projeto -->
+## 🔗 Por Projeto
 
-### [[CEBRASPE]]
-<!-- Tarefas do projeto -->
+### CEBRASPE
+- [[05-Tarefas/FE-22389|FE-22389]]
+- [[05-Tarefas/CB-20260428-Samanta-vpn-cebraspe|VPN com Samanta]]
 
-### [[PESSOAL]]
-<!-- Tarefas do projeto -->
+### PRION
+- [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]]
+- [[05-Tarefas/FE-2539-PRION-melhoria-atendimento|FE-2539]]
 
-## 📅 Vencendo Esta Semana
+### PESSOAL
+- [[05-Tarefas/LT-20260428-Leonardo-sessao|Sessão com Leonardo]]
+- [[05-Tarefas/ONFIAP-2026-04-29-2-aulas-resumo|ONFIAP]]
+- [[05-Tarefas/AUVP-2026-04-29-voltar-a-consumir|AUVP]]
 
-<!-- Tarefas com due esta semana -->
+## 🔗 Ligações
 
-## ✅ Recentemente Completas
-
-<!-- Tarefas Done nos últimos 7 dias -->
-
-## 🔗 Links
-
-- [[05-Tarefas/README|Tarefas]] — Pasta com todas as tarefas
-- [[MOC - Projetos]] — Projetos com tarefas vinculadas
-- [[MOC - Home]] — Voltar ao hub
+- [[09-MOCs/MOC - Projetos]]
+- [[09-MOCs/MOC - Pessoas]]
+- [[01-Daily/2026-04-28]]

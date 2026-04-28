@@ -33,3 +33,4 @@ Terminar as implementações pendentes do PRION.
 - [[PRION]]
 - [[MOC - Projetos]]
 - [[01-Daily/2026-04-28]]
+- [[MOC - Tarefas]]
