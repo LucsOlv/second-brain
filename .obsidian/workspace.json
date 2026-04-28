@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Projetos/CEBRASPE.md",
+                "file": "01-Daily/2026-04-28.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "CEBRASPE"
+              "title": "2026-04-28"
             }
           }
         ],
@@ -214,6 +214,8 @@
   },
   "active": "dd944604dd74da68",
   "lastOpenFiles": [
+    "01-Daily/README.md",
+    "02-Projetos/CEBRASPE.md",
     "01-Daily/2026-04-28.md",
     "01-Daily/~syncthing~2026-04-28.md.tmp",
     "05-Tarefas/~syncthing~FE-22389.md.tmp",
@@ -229,7 +231,6 @@
     "~syncthing~daily_craft.tmp",
     "~syncthing~reminder_pulse.tmp",
     "04-Saude-Mental/01-Plano-de-Seguranca/Formas de Me Manter Ocupado.md",
-    "01-Daily/README.md",
     "00-Inbox/README.md",
     "09-MOCs/MOC - Projetos.md",
     "02-Projetos/~syncthing~PRION.md.tmp",
@@ -237,7 +238,6 @@
     "09-MOCs/MOC - Saúde Mental.md",
     "09-MOCs/MOC - Tarefas.md",
     "09-MOCs/MOC - Home.md",
-    "02-Projetos/CEBRASPE.md",
     "02-Projetos/PESSOAL.md",
     "02-Projetos/PRION.md",
     "02-Projetos/README.md",
