@@ -33,12 +33,12 @@ Consultoria de TI onde atuo como **desenvolvedor full stack**. Desenvolvimento d
 
 ## 📋 Info Profissional
 
-| Campo | Valor |
-|---|---|
-| **Email** | lucas.oliveira@consultor.cebraspe.org.br |
-| **Cargo** | Desenvolvedor Full Stack |
-| **Ambiente Dev** | https://devsistemas.cebraspe.org.br |
-| **Azure DevOps** | https://dev.azure.com/Cebraspe/ |
+| Campo            | Valor                                    |
+| ---------------- | ---------------------------------------- |
+| **Email**        | lucas.oliveira@consultor.cebraspe.org.br |
+| **Cargo**        | Desenvolvedor Full Stack                 |
+| **Ambiente Dev** | https://devsistemas.cebraspe.org.br      |
+| **Azure DevOps** | https://dev.azure.com/Cebraspe/          |
 
 ## ☁️ Infraestrutura
 
