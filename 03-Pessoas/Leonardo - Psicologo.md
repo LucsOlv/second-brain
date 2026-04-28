@@ -6,9 +6,13 @@ role: Psicólogo
 contact:
 specialty: Estratégias concretas para gestão emocional e mental
 session_frequency: semanal
-next_session: 2026-04-28
-tags: [saude-mental, profissional, acompanhamento]
-related_projects: []
+next_session:
+tags:
+  - saude-mental
+  - profissional
+  - acompanhamento
+related_projects:
+  - PESSOAL
 ---
 
 # Leonardo — Psicólogo
@@ -19,38 +23,40 @@ name: Leonardo
 role: Psicólogo
 contact:
 specialty: Estratégias concretas para gestão emocional e mental
-next_session: 2026-04-28
+next_session:
 ```
 
 ## 📋 Informações
 
 **Especialidade:** Estratégias práticas de gestão emocional e mental  
 **Frequência:** Semanal  
-**PAPEL NO PLANO DE SEGURANÇA:** Primeiro contacto profissional em crise emocional  
+**Papel no plano de segurança:** Primeiro contacto profissional em crise emocional
 
 ## 📅 Próxima Sessão
 
 | Data | Horário | Tema |
 |------|---------|------|
-| 2026-04-28 | — | — |
+| A definir | — | — |
 
 ## 📝 Histórico de Sessões
 
 | Data | Tema | Notas |
 |------|------|-------|
+| 2026-04-28 | Sessão de acompanhamento | Lucas explicou como o sistema de notas funciona; Leonardo pediu para continuar fazendo. |
 | — | | |
 
 ## 💬 Temas para Abordar
 
-<!-- O que quer discutir na próxima sessão -->
-- [ ] 
+- [ ] Acompanhar o uso das notas e do diário
+- [ ] Revisar rotina, humor e energia ao longo da semana
 
 ## 📝 Notas
 
-<!-- Observações, insights, recomendações -->
+- Sessão realizada em 2026-04-28.
+- Ligado à daily do dia: [[01-Daily/2026-04-28]]
 
 ## 🔗 Conectado a
 
 - [[MOC - Saúde Mental]]
 - [[MOC - Pessoas]]
-- [[01-Daily/2026-04-27]] — Primeiro link na nota diária
+- [[01-Daily/2026-04-28]]

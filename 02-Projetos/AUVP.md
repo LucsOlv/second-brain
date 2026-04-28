@@ -9,8 +9,8 @@ tags:
   - investimento
   - curso
 relacionado:
-  - "[[MOC - Projetos]]"
-  - "[[PESSOAL]]"
+  - [[MOC - Projetos]]
+  - [[PESSOAL]]
 ---
 
 # AUVP — Curso de Investimento
@@ -21,7 +21,7 @@ relacionado:
 type: projeto
 status: paused
 priority: medium
-start_date: ? [quando começou?]
+start_date: ?
 tags: [estudo, investimento, curso]
 ```
 
@@ -33,7 +33,7 @@ tags: [estudo, investimento, curso]
 
 | Item | Status | Nota |
 |---|---|---|
-| Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-27]] — Ação para amanhã |
+| Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-28]] — tarefa de amanhã |
 | Completar módulos | ⬜ Não iniciado | |
 | Fazer exercícios | ⬜ Não iniciado | |
 
@@ -41,15 +41,15 @@ tags: [estudo, investimento, curso]
 
 | Módulo | Status | Nota |
 |---|---|---|
-| [?] Módulo 1 | ⬜ | |
-| [?] Módulo 2 | ⬜ | |
-| [?] Módulo 3 | ⬜ | |
+| Módulo 1 | ⬜ | |
+| Módulo 2 | ⬜ | |
+| Módulo 3 | ⬜ | |
 
 ## 📊 Histórico
 
 | Data | Actividade | Nota |
 |---|---|---|
-| — | — | — |
+| 2026-04-28 | Planejamento | Voltar a consumir amanhã |
 
 ---
 
@@ -57,3 +57,4 @@ tags: [estudo, investimento, curso]
 
 - [[MOC - Projetos]]
 - [[PESSOAL]] — projeto pessoal
+- [[01-Daily/2026-04-28]] — tarefa para amanhã

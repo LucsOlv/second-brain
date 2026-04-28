@@ -8,7 +8,9 @@ tags:
   - estudo
   - pos-graduacao
   - curso
-relacionado: "[[MOC - Projetos]]"
+relacionado:
+  - [[MOC - Projetos]]
+  - [[07-Ideias/Resumos/ONFIAP]]
 ---
 
 # ONFIAP — Pós-Graduação
@@ -40,25 +42,22 @@ tags: [estudo, pos-graduacao, curso]
 - [ ] Assistir 2 aulas por dia (meta diária)
 - [ ] Fazer resumos de cada aula
 - [ ] Revisar conteúdo semanalmente
-- [ ] [?] Completar todos os módulos
-
-**Nota:** [[01-Daily/2026-04-27]] — Ação para amanhã: ver pelo menos 2 aulas e fazer um resumo.
+- [ ] Completar todos os módulos
 
 ### Próxima Aula
 
-[?] — Qual é a próxima aula a assistir? Actualizar após cada sessão.
+A definir.
 
 ## 📝 Resumos
-
-<!-- Linkar resumos das aulas em [[07-Ideias/Resumos/ONFIAP]] -->
 
 - [[07-Ideias/Resumos/ONFIAP]] — Hub de resumos
 
 ## 📊 Histórico
 
-| Data | Aulas | Resumo Feito? |
-|---|---|---|
-| 2026-04-27 | 0 | — |
+| Data | Aulas | Resumo Feito? | Nota |
+|---|---|---|---|
+| 2026-04-27 | 0 | — | Início do projeto |
+| 2026-04-28 | 0 | — | Planejado: assistir 2 aulas e fazer um resumo amanhã |
 
 ---
 
@@ -66,3 +65,4 @@ tags: [estudo, pos-graduacao, curso]
 
 - [[MOC - Projetos]]
 - [[PESSOAL]] — projeto pessoal
+- [[01-Daily/2026-04-28]] — tarefa para amanhã
