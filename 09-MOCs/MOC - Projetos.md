@@ -4,10 +4,10 @@ Visão geral de todos os projectos. Navegue para detalhes.
 
 ## 💼 Trabalho
 
-| Projeto | Cargo | Status | Próxima Ação |
-|---|---|---|---|
+| Projeto      | Cargo                    | Status          | Próxima Ação            |
+| ------------ | ------------------------ | --------------- | ----------------------- |
 | [[CEBRASPE]] | Desenvolvedor Full Stack | 🔄 Em progresso | Melhoria de atendimento |
-| [[PRION]] | Desenvolvedor Full Stack | 🔄 Em progresso | [?] Definir tarefa |
+| [[PRION]]    | Desenvolvedor Full Stack | 🔄 Em progresso | [?] Definir tarefa      |
 
 > ⚠️ CEBRASPE e PRION são empresas completamente separadas — sem vínculo entre si.
 

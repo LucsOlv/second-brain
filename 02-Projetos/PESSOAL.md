@@ -5,7 +5,10 @@ status: active
 priority: medium
 start_date: 2026-04-27
 tags: [pessoal]
-relacionado: [[MOC - Projetos]], [[ONFIAP]], [[AUVP]]
+relacionado:relacionado:  
+- "[[MOC - Projetos]]"  
+- "[[ONFIAP]]"  
+- "[[AUVP]]"
 ---
 
 # PESSOAL — Projeto Pessoal

@@ -1,0 +1,174 @@
+#!/bin/bash
+# daily-dawn-craft — Generate daily note
+# Run at 03:00 daily
+set -e
+
+VAULT_DIR=~/obsidian
+TODAY=$(date +'%Y-%m-%d')
+TOMORROW=$(date -d '+1 day' +'%Y-%m-%d')
+DAY_NAME=$(date +'%A')
+DAY_NUM=$(date +'%-d')
+MONTH_NAME=$(date +'%B')
+YEAR=$(date +'%Y')
+
+echo [daily-dawn-craft] Running for date: $TODAY
+
+cd $VAULT_DIR || { echo ERROR: Cannot access $VAULT_DIR; exit 1; }
+
+DAILY_FILE=\"$VAULT_DIR/01-Daily/$TODAY.md\"
+
+if [ -f \"$DAILY_FILE\" ]; then
+    echo [daily-dawn-craft] Daily note already exists: $TODAY.md. Skipping.
+    exit 0
+fi
+
+# Find tasks with data_futura = tomorrow
+MIGRATED_TASKS=\"\"
+TEMP_FILES=/tmp/daily_craft_files_$$.txt
+find $VAULT_DIR -name '*.md' ! -path '*/.obsidian/*' ! -path '*/node_modules/*' -type f > $TEMP_FILES
+
+while IFS= read -r FILE; do
+    if grep -qE \"(data_futura|data_limite): $TOMORROW\" \"$FILE\" 2>/dev/null; then
+        TASK_TITLE=$(grep -E '^# ' \"$FILE\" | head -1 | sed 's/^# //')
+        PROJECT=$(grep -E '^projeto:' \"$FILE\" | head -1 | sed 's/projeto:.*\\[\\[//' | sed 's/\\]\\].*//')
+        if [ -n \"$PROJECT\" ]; then
+            MIGRATED_TASKS=\"${MIGRATED_TASKS}- [ ] [[${PROJECT}]] — ${TASK_TITLE}\n\"
+        fi
+    fi
+done < $TEMP_FILES
+rm -f $TEMP_FILES
+
+if [ -z \"$MIGRATED_TASKS\" ]; then
+    MIGRATED_TASKS=\"<!-- Nenhuma tarefa migrada de amanha -->\n\"
+fi
+
+# Get Leonardo's next session date
+LEONARDO_FILE=\"$VAULT_DIR/03-Pessoas/Leonardo - Psicologo.md\"
+LEONARDO_DATE=\"[data]\"
+if [ -f \"$LEONARDO_FILE\" ]; then
+    SESSION_LINE=$(grep -E 'next_session:' \"$LEONARDO_FILE\" 2>/dev/null | head -1)
+    if [ -n \"$SESSION_LINE\" ]; then
+        LEONARDO_DATE=$(echo \"$SESSION_LINE\" | awk '{print $2}' | tr -d ' ')
+    fi
+    if [ -z \"$LEONARDO_DATE\" ] || [ \"$LEONARDO_DATE\" = \"[data]\" ]; then
+        LEONARDO_DATE=$(grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' \"$LEONARDO_FILE\" | head -1)
+        [ -z \"$LEONARDO_DATE\" ] && LEONARDO_DATE=\"[data]\"
+    fi
+fi
+
+# Build daily note
+cat > \"$DAILY_FILE\" << ENDFILE
+---
+title: $DAY_NUM de $MONTH_NAME de $YEAR
+date: $TODAY
+day: $DAY_NAME
+type: daily
+energy:
+mood:
+stress_level:
+sleep_hours:
+exercise:
+---
+
+# $DAY_NUM de $MONTH_NAME de $YEAR
+
+> 📅 $DAY_NAME
+
+---
+
+## 🧠 Resumo do Dia
+
+<!-- Como foi seu dia? O que aconteceu? -->
+
+
+## 🎯 Tarefas de Hoje
+
+<!-- Migradas de amanha -->
+$MIGRATED_TASKS
+- [ ]
+
+---
+
+## 💡 Insights
+
+<!-- Ideias, reflexoes, descobertas -->
+
+
+## 📚 Estudos
+
+<!-- O que aprendeu hoje? -->
+
+
+## 🧘 Saude Mental
+
+### 🌅 Variacoes ao Longo do Dia
+
+| Horario | Energia | Humor | Estresse | Observacoes |
+|---------|---------|-------|----------|-------------|
+| **07:00** | /10    |       |          |             |
+| **11:00** | —      | —     | —        | —           |
+| **18:00** | —      | —     | —        | —           |
+| **22:00** | —      | —     | —        | —           |
+
+> 💡 Regista quando sentires mudanca significativa — antes/depois de tarefas, treino, reunioes, etc.
+
+
+| Campo         | Valor                               |
+| ------------- | ----------------------------------- |
+| **Energia**   | /10                                 |
+| **Humor**     |                                     |
+| **Estresse**  | low / medium / high                 |
+| **Sono**      | horas                               |
+| **Exercicio** |                                     |
+
+### 🙏 Gratidao
+
+<!-- 3 coisas boas do dia -->
+1.
+2.
+3.
+
+### 💭 Reflexao
+
+<!-- Como estou me sentindo? O que preciso processar? -->
+
+
+### ⚠️ Sinais de Alerta
+
+<!-- Algo que precisa de atencao? -->
+- [ ]
+
+
+### 🔜 Acao para Amanha
+
+<!-- Uma coisa que posso fazer melhor amanha -->
+- [ ]
+
+
+## 🔗 Ligacoes
+
+### Pessoas
+- [[Leonardo - Psicologo]] — Psicologo (proxima consulta: $LEONARDO_DATE)
+
+### Projetos
+- [[PRION]] — Desenvolvimento Full Stack
+- [[CEBRASPE]] — Consultoria de TI (Desenvolvedor Full Stack)
+- [[ONFIAP]] — Pos-graduacao
+- [[AUVP]] — Curso de investimento
+
+### Saude & Fitness
+- [[Treino]] — Rotina de treino
+- [[MOC - Saude Mental]] — Hub de bem-estar
+
+### Outros
+- [[MOC - Projetos]] — Visao geral dos projetos
+- [[MOC - Pessoas]] — Rede de pessoas
+ENDFILE
+
+echo [daily-dawn-craft] Created: $DAILY_FILE
+
+git add \"01-Daily/$TODAY.md\"
+git commit -m \"daily: criar nota $TODAY\"
+git push
+
+echo [daily-dawn-craft] Done.

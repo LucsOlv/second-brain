@@ -4,19 +4,20 @@
 
 ## 📁 Estrutura
 
-| Pasta | Propósito |
-|-------|-----------|
-| `00-Inbox` | Captura rápida de ideias e lembretes |
-| `01-Daily` | Notas diárias decheck-in |
-| `02-Projetos` | Projetos ativos (PRION, CEBRASPE, PESSOAL) |
-| `03-Pessoas` | Contatos e pessoas importantes |
-| `04-Saude-Mental` | Check-ins de saúde mental |
-| `05-Tarefas` | Tasks com Due Dates e Prioridade |
-| `06-Lembretes` | Lembretes recorrentes e únicos |
-| `07-Ideias` | Banco de ideias e inspiración |
-| `08-Referencias` | Material de referência e notas de estudo |
-| `09-MOCs` | Mapas de Conteúdo — hub central |
-| `99-Arquivo` | Notas antigas arquivadas |
+| Pasta             | Propósito                                  |
+| ----------------- | ------------------------------------------ |
+| `00-Inbox`        | Captura rápida de ideias e lembretes       |
+| `01-Daily`        | Notas diárias decheck-in                   |
+| `02-Projetos`     | Projetos ativos (PRION, CEBRASPE, PESSOAL) |
+| `03-Pessoas`      | Contatos e pessoas importantes             |
+| `04-Saude-Mental` | Check-ins de saúde mental                  |
+| `05-Tarefas`      | Tasks com Due Dates e Prioridade           |
+| `06-Lembretes`    | Lembretes recorrentes e únicos             |
+| `07-Ideias`       | Banco de ideias e inspiración              |
+| `08-Referencias`  | Material de referência e notas de estudo   |
+| `09-MOCs`         | Mapas de Conteúdo — hub central            |
+| `99-Arquivo`      | Notas antigas arquivadas                   |
+|                   |                                            |
 
 ## 🔗 Navegação
 

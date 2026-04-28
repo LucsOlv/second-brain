@@ -4,8 +4,15 @@ type: projeto
 status: active
 priority: high
 start_date: 2026-04-27
-tags: [trabalho, ti, fullstack, azure, cti, cebraspe]
-relacionado: [[MOC - Projetos]]
+tags:
+  - trabalho
+  - ti
+  - fullstack
+  - azure
+  - cti
+  - cebraspe
+relacionado:
+  - MOC - Projetos
 ---
 
 # CEBRASPE — Consultoria de TI

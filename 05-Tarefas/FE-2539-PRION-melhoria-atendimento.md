@@ -2,10 +2,13 @@
 title: FE-2539 — Melhoria de Atendimento
 type: tarefa
 status: completed
-projeto: [[PRION]]
+projeto: "[[PRION]]"
 data_criacao: 2026-04-27
 data_conclusao: 2026-04-27
-tags: [tarefa, prion, desenvolvimento]
+tags:
+  - tarefa
+  - prion
+  - desenvolvimento
 ---
 
 # FE-2539 — Melhoria de Atendimento

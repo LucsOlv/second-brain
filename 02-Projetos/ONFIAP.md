@@ -4,8 +4,11 @@ type: projeto
 status: active
 priority: medium
 start_date: 2026-04-27
-tags: [estudo, pos-graduacao, curso]
-relacionado: [[MOC - Projetos]], [[PESSOAL]]
+tags:
+  - estudo
+  - pos-graduacao
+  - curso
+relacionado: "[[MOC - Projetos]]"
 ---
 
 # ONFIAP — Pós-Graduação

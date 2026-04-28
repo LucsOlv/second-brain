@@ -3,9 +3,14 @@ title: AUVP
 type: projeto
 status: paused
 priority: medium
-start_date: ?
-tags: [estudo, investimento, curso]
-relacionado: [[MOC - Projetos]], [[PESSOAL]]
+start_date:
+tags:
+  - estudo
+  - investimento
+  - curso
+relacionado:
+  - "[[MOC - Projetos]]"
+  - "[[PESSOAL]]"
 ---
 
 # AUVP — Curso de Investimento

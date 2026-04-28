@@ -1,0 +1,140 @@
+#!/bin/bash
+# obsidian-inbox-sync — Processamento Noturno
+# Run at 02:00 daily
+set -e
+
+VAULT_DIR=~/obsidian
+CRON_STATE_DIR=~/.hermes/cron
+LAST_SYNC_FILE=$CRON_STATE_DIR/last_inbox_sync.txt
+NOW=$(date +'%Y-%m-%d %H:%M:%S')
+
+echo [obsidian-inbox-sync] Started at $NOW
+
+cd $VAULT_DIR || { echo ERROR: Cannot access $VAULT_DIR; exit 1; }
+
+# 1. Detect changes since last run
+if [ -f $LAST_SYNC_FILE ]; then
+    LAST_DATE=$(cat $LAST_SYNC_FILE)
+    echo [obsidian-inbox-sync] Processing changes since: $LAST_DATE
+    CHANGED_FILES=$(git log --since=\"\u201c$LAST_DATE\" --name-only --pretty=format: | grep -v '^$' | sort -u | grep -v '\\.obsidian/' | grep -v '\\.git/' | grep '\\.md$')
+else
+    echo [obsidian-inbox-sync] No last sync file — processing all inbox files
+    CHANGED_FILES=$(find $VAULT_DIR/00-Inbox/ -name '*.md' ! -name 'README.md' 2>/dev/null | head -20)
+fi
+
+if [ -z \"$CHANGED_FILES\" ]; then
+    echo [obsidian-inbox-sync] No changes detected. Skipping.
+    echo $NOW > $LAST_SYNC_FILE
+    exit 0
+fi
+
+CHANGES_MADE=0
+
+# 2. For each changed file, find broken wikilinks
+for FILE in $CHANGED_FILES; do
+    if [ ! -f \"$FILE\" ]; then
+        continue
+    fi
+
+    LINKS=$(grep -oE '\\[\\[[^\\]]+\\]\\]' \"$FILE\" 2>/dev/null | sed 's/\\[\\[//g; s/\\]\\]//g' || true)
+
+    for LINK in $LINKS; do
+        FOUND=0
+        IFS='/' read -ra PARTS <<< \"$LINK\"
+        NOTE_NAME=\"${PARTS[-1]}\"
+
+        if [ -f \"$VAULT_DIR/$LINK.md\" ] || [ -f \"$VAULT_DIR/$LINK/\"*.md ] 2>/dev/null; then
+            FOUND=1
+        elif [ -f \"$VAULT_DIR/${NOTE_NAME}.md\" ]; then
+            FOUND=1
+        fi
+
+        if [ $FOUND -eq 0 ]; then
+            echo [obsidian-inbox-sync] Creating placeholder for: [[$LINK]]
+
+            PLACEHOLDER_PATH=\"$VAULT_DIR/00-Inbox/${NOTE_NAME}.md\"
+            if [ ! -f \"$PLACEHOLDER_PATH\" ]; then
+                cat > \"$PLACEHOLDER_PATH\" << EOF
+---
+title: $NOTE_NAME
+type: placeholder
+lembrar: true
+data_limite:
+created_by: obsidian-inbox-sync
+created_at: $(date +'%Y-%m-%d')
+---
+
+# $NOTE_NAME
+
+<!-- Placeholder criado automaticamente pelo obsidian-inbox-sync -->
+<!-- Referenciado em: $FILE -->
+EOF
+                CHANGES_MADE=1
+                echo [obsidian-inbox-sync] Created: $PLACEHOLDER_PATH
+
+                TASK_FILE=\"$VAULT_DIR/05-Tarefas/AUTO-inbox-$(date +'%Y%m%d%H%M%S').md\"
+                cat > \"$TASK_FILE\" << EOF
+---
+title: Criar nota: $NOTE_NAME
+type: tarefa
+status: pending
+prioridade: medium
+created_by: obsidian-inbox-sync
+data_criacao: $(date +'%Y-%m-%d')
+---
+
+# Criar nota: $NOTE_NAME
+
+## Origem
+Criado automaticamente — link encontrado em nota que não existia.
+
+## Contexto
+- Link: [[$LINK]]
+- Origem: $FILE
+
+## Acao
+Criar a nota completa com todas as informacoes relevantes.
+EOF
+                echo [obsidian-inbox-sync] Created task: $TASK_FILE
+                CHANGES_MADE=1
+            fi
+        fi
+    done
+done
+
+# 3. Organize 00-Inbox if too many files
+INBOX_COUNT=$(find $VAULT_DIR/00-Inbox/ -name '*.md' ! -name 'README.md' | wc -l)
+echo [obsidian-inbox-sync] Inbox count: $INBOX_COUNT
+
+if [ $INBOX_COUNT -gt 10 ]; then
+    mkdir -p \"$VAULT_DIR/00-Inbox/pendentes\"
+    for FILE in $VAULT_DIR/00-Inbox/*.md; do
+        if [ \"$(basename $FILE)\" = \"README.md\" ]; then
+            continue
+        fi
+        FILE_DATE=$(stat -c %Y \"$FILE\" 2>/dev/null || echo 0)
+        SEVEN_DAYS_AGO=$(date -d '7 days ago' +%s)
+        if [ $FILE_DATE -lt $SEVEN_DAYS_AGO ]; then
+            mv \"$FILE\" \"$VAULT_DIR/00-Inbox/pendentes/\"
+            echo [obsidian-inbox-sync] Moved old file to pendentes: $(basename $FILE)
+            CHANGES_MADE=1
+        fi
+    done
+fi
+
+# 4. Commit if changes made
+if [ $CHANGES_MADE -eq 1 ]; then
+    echo [obsidian-inbox-sync] Committing changes...
+    git add -A
+    git reset .obsidian 2>/dev/null || true
+    git reset 01-Daily/ 2>/dev/null || true
+    git commit -m \"obsidian-inbox-sync: processar mudancas e criar placeholders\"
+    git push
+    echo [obsidian-inbox-sync] Committed and pushed.
+else
+    echo [obsidian-inbox-sync] No changes to commit.
+fi
+
+# 5. Update last sync time
+echo $NOW > $LAST_SYNC_FILE
+echo [obsidian-inbox-sync] Done.

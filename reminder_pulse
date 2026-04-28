@@ -1,0 +1,96 @@
+#!/bin/bash
+# dawn-reminder-pulse — Send reminder notifications
+# Run at 06:00 daily
+set -e
+
+VAULT_DIR=~/obsidian
+TODAY=$(date +'%Y-%m-%d')
+
+echo [dawn-reminder-pulse] Running for date: $TODAY
+
+cd $VAULT_DIR || { echo ERROR: Cannot access $VAULT_DIR; exit 1; }
+
+REMINDERS_FILE=/tmp/reminders_today_$$.txt
+TEMP_FILES=/tmp/reminder_files_$$.txt
+> $REMINDERS_FILE
+> $TEMP_FILES
+
+find $VAULT_DIR/06-Lembretes/ -name '*.md' -type f > $TEMP_FILES
+
+COUNT=0
+while IFS= read -r FILE; do
+    if [ \"$(basename $FILE)\" = \"README.md\" ]; then
+        continue
+    fi
+
+    HAS_LEMBRAR=$(grep -iE 'lembrar:\b*(true|yes|sim|1)\b' \"$FILE\" 2>/dev/null || echo \"\")
+    IS_TODAY=$(grep -E \"(data_limite|due|data_futura):\b*$TODAY\b\" \"$FILE\" 2>/dev/null || echo \"\")
+
+    if [ -n \"$HAS_LEMBRAR\" ] && [ -n \"$IS_TODAY\" ]; then
+        TITLE=$(grep -E '^title:' \"$FILE\" | head -1 | sed 's/title://' | tr -d ' ' || echo \"$(basename $FILE .md)\")
+        PRIORITY=$(grep -E '^prioridade:' \"$FILE\" | head -1 | sed 's/prioridade://' | tr -d ' ' || echo 'medium')
+        DESC=$(grep -vE '^(---|title:|type:|lembrar:|data_limite|due|data_futura|prioridade|projeto|status|created)' \"$FILE\" 2>/dev/null | head -5 | tr '\n' ' ' | sed 's/  */ /g')
+
+        echo \"$TITLE|$PRIORITY|$DESC\" >> $REMINDERS_FILE
+        COUNT=$((COUNT + 1))
+    fi
+done < $TEMP_FILES
+rm -f $TEMP_FILES
+
+if [ $COUNT -eq 0 ]; then
+    echo [dawn-reminder-pulse] No reminders for today. Skipping.
+    exit 0
+fi
+
+# Build Discord message
+MESSAGE=\"🌅 Bom dia, Lucas!\n\nTens $COUNT lembretes para hoje:\n\n\"
+
+while IFS='|' read -r TITLE PRIORITY DESC; do
+    PRIO_EMOJI=\"🟡\"
+    case \"$PRIORITY\" in
+        high|alta) PRIO_EMOJI=\"🔴\" ;;
+        medium|media) PRIO_EMOJI=\"🟡\" ;;
+        low|baixa) PRIO_EMOJI=\"🟢\" ;;
+    esac
+    MESSAGE=\"${MESSAGE}${PRIO_EMOJI} [[${TITLE}]]\n\"
+    [ -n \"$DESC\" ] && MESSAGE=\"${MESSAGE}   ${DESC}\n\"
+    MESSAGE=\"${MESSAGE}   Due: ${TODAY}\n\n\"
+done < $REMINDERS_FILE
+rm -f $REMINDERS_FILE
+
+MESSAGE=\"${MESSAGE}Boa sorte! 💪\"
+
+# Send to Discord thread via Hermes API
+curl -s -X POST http://localhost:3000/api/send \\
+    -H \"Content-Type: application/json\" \\
+    -d \"{\\\"target\\\": \\\"discord:1497579026406051931:1498235616075321416\\\", \\\"message\\\": \\\"${MESSAGE}\\\"}\" > /dev/null 2>&1
+
+echo [dawn-reminder-pulse] Sent $COUNT reminders to Discord thread.
+
+# Mark reminders as notified
+find $VAULT_DIR/06-Lembretes/ -name '*.md' ! -name 'README.md' -type f > $TEMP_FILES
+while IFS= read -r FILE; do
+    if grep -qE \"(data_limite|due|data_futura):\b*$TODAY\b\" \"$FILE\" 2>/dev/null; then
+        if grep -qi 'lembrar:' \"$FILE\"; then
+            if ! grep -q 'notificado:' \"$FILE\"; then
+                awk -v today=\"$TODAY\" '
+                /^---$/ && !started { started=1; print; next }
+                started && /^---$/ { print \"notificado: true\"; print \"notificado_em: \" today; started=2 }
+                started==2 { next }
+                /^[ \t]*lembrar:[ \t]*(true|yes|sim|1)/ { print \"lembrar: false\"; next }
+                { print }
+                ' \"$FILE\" > \"${FILE}.tmp\" && mv \"${FILE}.tmp\" \"$FILE\"
+                git add \"$FILE\"
+            fi
+        fi
+    fi
+done < $TEMP_FILES
+rm -f $TEMP_FILES
+
+if git status --porcelain | grep -v '^??' | head -1 | grep -q .; then
+    git commit -m \"dawn-reminder-pulse: marcar lembretes notificados $TODAY\"
+    git push
+    echo [dawn-reminder-pulse] Committed changes.
+fi
+
+echo [dawn-reminder-pulse] Done.
