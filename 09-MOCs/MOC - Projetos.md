@@ -6,8 +6,8 @@ Visão geral de todos os projectos. Navegue para detalhes.
 
 | Projeto      | Cargo                    | Status          | Próxima Ação            |
 | ------------ | ------------------------ | --------------- | ----------------------- |
-| [[CEBRASPE]] | Desenvolvedor Full Stack | 🔄 Em progresso | Melhoria de atendimento |
-| [[PRION]]    | Desenvolvedor Full Stack | 🔄 Em progresso | [?] Definir tarefa      |
+| [[CEBRASPE]] | Desenvolvedor Full Stack | 🔄 Em progresso | Verificar pendências |
+| [[PRION]]    | Desenvolvedor Full Stack | 🔄 Em progresso | FE-2480 — entregar e validar |
 
 > ⚠️ CEBRASPE e PRION são empresas completamente separadas — sem vínculo entre si.
 
@@ -38,21 +38,20 @@ Visão geral de todos os projectos. Navegue para detalhes.
 
 | Projeto | Tipo | Status | Prioridade | Próxima Ação |
 |---|---|---|---|---|
-| [[CEBRASPE]] | 💼 Trabalho | 🔄 | 🔴 Alta | Melhoria de atendimento |
-| [[PRION]] | 💼 Trabalho | 🔄 | 🔴 Alta | [?] Definir |
+| [[CEBRASPE]] | 💼 Trabalho | 🔄 | 🔴 Alta | Verificar pendências |
+| [[PRION]] | 💼 Trabalho | 🔄 | 🔴 Alta | FE-2480 |
 | [[ONFIAP]] | 📖 Estudo | 🟢 | 🟡 Média | 2 aulas/dia |
 | [[AUVP]] | 📖 Estudo | 🟡 | 🟡 Média | Voltar a consumir |
 | [[PESSOAL]] | 📋 Pessoal | 🔄 | 🟡 Média | ONFIAP + AUVP |
 
 ## 📅 Hoje
 
-> Baseado em [[01-Daily/2026-04-28]]
+> Baseado em [[01-Daily/2026-04-29]]
 
-- [ ] [[CEBRASPE]] — Falar com a Samanta sobre a VPN (deu ruim)
-- [ ] [[Leonardo - Psicologo]] — Consulta com o Psicólogo Leonardo - confirmada 18:30
-- [ ] [[ONFIAP]] — Ver pelo menos 2 aulas e fazer resumo - amanha
-- [ ] [[AUVP]] — Voltar a consumir - amanha
-- [ ] [[PRION]] — [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] terminar implementações
+- [ ] [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] — [[PRION]] entregar a 2480
+- [ ] [[05-Tarefas/CB-20260429-CEBRASPE-verificar-pendencias|CEBRASPE]] — verificar se precisa de algo
+- [ ] [[05-Tarefas/RI-20260429-Ricardo-marcar-consulta|Ricardo]] — marcar consulta
+- [ ] [[05-Tarefas/PE-20260429-lavar-roupa|PESSOAL]] — lavar roupa
 
 
 ## 🔗 Links

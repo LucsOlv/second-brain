@@ -2,7 +2,7 @@
 type: task
 status: in_progress
 priority: high
-due: 2026-04-28
+due: 2026-04-29
 project: [[PRION]]
 person:
 tags:
@@ -18,7 +18,7 @@ created: 2026-04-28
 
 ## Descrição
 
-Terminar as implementações pendentes do PRION.
+Terminar as implementações pendentes do PRION e entregar/validar em dev hoje.
 
 ## Checklist
 
@@ -33,4 +33,5 @@ Terminar as implementações pendentes do PRION.
 - [[PRION]]
 - [[MOC - Projetos]]
 - [[01-Daily/2026-04-28]]
+- [[01-Daily/2026-04-29]]
 - [[MOC - Tarefas]]

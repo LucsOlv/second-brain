@@ -15,6 +15,9 @@ Kanban manual de tudo que é task no vault.
 
 - [[05-Tarefas/ONFIAP-2026-04-29-2-aulas-resumo|ONFIAP — assistir 2 aulas e fazer resumo]]
 - [[05-Tarefas/AUVP-2026-04-29-voltar-a-consumir|AUVP — voltar a consumir]]
+- [[05-Tarefas/CB-20260429-CEBRASPE-verificar-pendencias|CEBRASPE — verificar pendências]]
+- [[05-Tarefas/RI-20260429-Ricardo-marcar-consulta|Ricardo — marcar consulta]]
+- [[05-Tarefas/PE-20260429-lavar-roupa|PESSOAL — lavar roupa]]
 
 ## 🟨 Doing
 
@@ -32,6 +35,7 @@ Kanban manual de tudo que é task no vault.
 ### CEBRASPE
 - [[05-Tarefas/FE-22389|FE-22389]]
 - [[05-Tarefas/CB-20260428-Samanta-vpn-cebraspe|VPN com Samanta]]
+- [[05-Tarefas/CB-20260429-CEBRASPE-verificar-pendencias|Verificar pendências]]
 
 ### PRION
 - [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]]
@@ -41,9 +45,11 @@ Kanban manual de tudo que é task no vault.
 - [[05-Tarefas/LT-20260428-Leonardo-sessao|Sessão com Leonardo]]
 - [[05-Tarefas/ONFIAP-2026-04-29-2-aulas-resumo|ONFIAP]]
 - [[05-Tarefas/AUVP-2026-04-29-voltar-a-consumir|AUVP]]
+- [[05-Tarefas/RI-20260429-Ricardo-marcar-consulta|Ricardo]]
+- [[05-Tarefas/PE-20260429-lavar-roupa|Lavar roupa]]
 
 ## 🔗 Ligações
 
 - [[09-MOCs/MOC - Projetos]]
 - [[09-MOCs/MOC - Pessoas]]
-- [[01-Daily/2026-04-28]]
+- [[01-Daily/2026-04-29]]

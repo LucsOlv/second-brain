@@ -5,10 +5,11 @@ status: active
 priority: medium
 start_date: 2026-04-27
 tags: [pessoal]
-relacionado:relacionado:  
-- "[[MOC - Projetos]]"  
-- "[[ONFIAP]]"  
-- "[[AUVP]]"
+relacionado:
+  - [[MOC - Projetos]]
+  - [[ONFIAP]]
+  - [[AUVP]]
+  - [[03-Pessoas/Ricardo - Nutrologo]]
 ---
 
 # PESSOAL — Projeto Pessoal
@@ -45,6 +46,8 @@ tags: [pessoal]
 |---|---|---|---|
 | ? | [[ONFIAP]] — Ver 2 aulas + resumo | 🔜 Pendente | [[01-Daily/2026-04-27]] |
 | ? | [[AUVP]] — Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-27]] |
+| ? | [[03-Pessoas/Ricardo - Nutrologo]] — Marcar consulta | 🔜 Pendente | [[01-Daily/2026-04-29]] |
+| ? | Lavar roupa | 🔜 Pendente | [[01-Daily/2026-04-29]] |
 
 ## 📝 Notas e Logs
 

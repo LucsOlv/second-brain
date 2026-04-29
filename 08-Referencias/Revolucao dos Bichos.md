@@ -9,12 +9,13 @@ tags:
   - literatura
   - estudo
 summary: |
-  Livro em leitura. Em 2026-04-28 foi lido o primeiro capítulo, que introduz a revolução e o porco principal.
+  Livro em leitura. Em 2026-04-28 foi lido o primeiro capítulo, que introduz a revolução e o porco principal. Em 2026-04-29 o foco é ler o segundo capítulo.
 key_takeaways:
   - Primeiro capítulo como introdução da revolução.
   - A história já estabelece o porco principal e o clima político da fazenda.
 related_notes:
   - [[01-Daily/2026-04-28]]
+  - [[01-Daily/2026-04-29]]
 ---
 
 # Revolução dos Bichos
