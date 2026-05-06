@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: nadu6-xmjyt
+created: 2026-04-27T18:11:37-03:00

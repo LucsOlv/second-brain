@@ -1,6 +1,7 @@
 ---
 title: AUVP
-type: projeto
+type: project
+area: study
 status: paused
 priority: medium
 start_date:
@@ -8,22 +9,13 @@ tags:
   - estudo
   - investimento
   - curso
-relacionado:
-  - [[MOC - Projetos]]
+related:
   - [[PESSOAL]]
 ---
 
 # AUVP — Curso de Investimento
 
 > Status: 🟡 Pausado | Prioridade: 🟡 Média
-
-```yaml
-type: projeto
-status: paused
-priority: medium
-start_date: ?
-tags: [estudo, investimento, curso]
-```
 
 ## 🎯 Sobre
 
@@ -33,7 +25,7 @@ tags: [estudo, investimento, curso]
 
 | Item | Status | Nota |
 |---|---|---|
-| Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-28]] — tarefa de amanhã |
+| Voltar a consumir | 🔜 Pendente | [[05-Tarefas/AUVP-2026-04-29-voltar-a-consumir]] |
 | Completar módulos | ⬜ Não iniciado | |
 | Fazer exercícios | ⬜ Não iniciado | |
 
@@ -50,11 +42,3 @@ tags: [estudo, investimento, curso]
 | Data | Actividade | Nota |
 |---|---|---|
 | 2026-04-28 | Planejamento | Voltar a consumir amanhã |
-
----
-
-## 🔗 Conectado a
-
-- [[MOC - Projetos]]
-- [[PESSOAL]] — projeto pessoal
-- [[01-Daily/2026-04-28]] — tarefa para amanhã

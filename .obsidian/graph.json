@@ -1,22 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:01-Daily  ",
+      "color": {
+        "a": 1,
+        "rgb": 877825
+      }
+    },
+    {
+      "query": "path:02-Projetos  ",
+      "color": {
+        "a": 1,
+        "rgb": 2083572
+      }
+    },
+    {
+      "query": "path:09-MOCs  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.14635416666667,
+  "lineSizeMultiplier": 1.37604166666667,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.640625,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.5087618855792563,
-  "close": true
+  "linkDistance": 500,
+  "scale": 0.19450022690615917,
+  "close": false
 }

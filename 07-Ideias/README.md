@@ -5,7 +5,7 @@ Banco de ideias — tudo que vier à cabeça. Não filtrar aqui.
 ## Template
 
 ```yaml
-type: ideia
+type: idea
 title: 
 status: # raw/developed/rejected/implemented
 tags: []

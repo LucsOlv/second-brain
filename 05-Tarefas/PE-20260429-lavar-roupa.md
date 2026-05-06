@@ -1,6 +1,6 @@
 ---
 type: task
-status: todo
+status: completed
 priority: low
 due: 2026-04-29
 project: [[PESSOAL]]
@@ -10,11 +10,12 @@ tags:
   - rotina
   - casa
 created: 2026-04-29
+done: 2026-05-06
 ---
 
 # PESSOAL — lavar roupa
 
-> Status: ⏳ Pendente | Projeto: [[PESSOAL]]
+> Status: ✅ Concluída | Projeto: [[PESSOAL]]
 
 ## Descrição
 
@@ -22,17 +23,18 @@ Lavar a roupa de hoje.
 
 ## Passo a Passo
 
-- [ ] Separar roupas
-- [ ] Lavar
-- [ ] Secar
-- [ ] Guardar
+- [x] Separar roupas
+- [x] Lavar
+- [x] Secar
+- [x] Guardar
 
 ## Recursos Necessários
 
-- [[02-Projetos/PESSOAL]]
-- [[09-MOCs/MOC - Tarefas]]
+- [[PESSOAL]]
 - [[01-Daily/2026-04-29]]
+- [[01-Daily/2026-05-06]]
 
 ## Notas
 
 Tarefa criada a partir da daily de 2026-04-29.
+Concluida na daily de 2026-05-06.

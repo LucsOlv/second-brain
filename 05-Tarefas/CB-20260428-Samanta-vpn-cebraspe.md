@@ -29,5 +29,4 @@ Falar com a Samanta sobre a VPN que deu problema.
 ## Ligações
 
 - [[CEBRASPE]]
-- [[MOC - Tarefas]]
 - [[01-Daily/2026-04-28]]

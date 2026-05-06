@@ -1,6 +1,7 @@
 ---
 title: ONFIAP
-type: projeto
+type: project
+area: study
 status: active
 priority: medium
 start_date: 2026-04-27
@@ -8,22 +9,13 @@ tags:
   - estudo
   - pos-graduacao
   - curso
-relacionado:
-  - [[MOC - Projetos]]
+related:
   - [[07-Ideias/Resumos/ONFIAP]]
 ---
 
 # ONFIAP — Pós-Graduação
 
 > Status: 🟢 Ativo | Prioridade: 🟡 Média | Iniciado: 27/04/2026
-
-```yaml
-type: projeto
-status: active
-priority: medium
-start_date: 2026-04-27
-tags: [estudo, pos-graduacao, curso]
-```
 
 ## 🎯 Sobre
 
@@ -46,11 +38,12 @@ tags: [estudo, pos-graduacao, curso]
 
 ### Próxima Aula
 
-A definir.
+Mentoria e avanço do projeto com entrega ate 22/05/2026.
 
 ## 📝 Resumos
 
 - [[07-Ideias/Resumos/ONFIAP]] — Hub de resumos
+- [[07-Ideias/Resumos/ONFIAP-2026-05-05]] — progresso em fine tuning, RAG e API
 
 ## 📊 Histórico
 
@@ -58,11 +51,4 @@ A definir.
 |---|---|---|---|
 | 2026-04-27 | 0 | — | Início do projeto |
 | 2026-04-28 | 0 | — | Planejado: assistir 2 aulas e fazer um resumo amanhã |
-
----
-
-## 🔗 Conectado a
-
-- [[MOC - Projetos]]
-- [[PESSOAL]] — projeto pessoal
-- [[01-Daily/2026-04-28]] — tarefa para amanhã
+| 2026-05-05 | — | ✅ | Fine tuning, RAG e API concluídos no projeto |

@@ -1,25 +1,18 @@
 ---
 title: Ricardo — Nutrologista
-type: pessoa
+type: person
 name: Ricardo
 role: Nutrologista
 contact:
 specialty: Nutrologia — alimentação, energia, sono
 session_frequency:
+last_contact:
 tags: [saude-mental, profissional, acompanhamento]
-related_projects: []
+projects:
+  - [[PESSOAL]]
 ---
 
 # Ricardo — Nutrologista
-
-```yaml
-type: pessoa
-name: Ricardo
-role: Nutrologista
-contact:
-specialty: Nutrologia
-next_session:
-```
 
 ## 📋 Informações
 
@@ -55,7 +48,6 @@ next_session:
 
 ## 🔗 Conectado a
 
-- [[MOC - Saúde Mental]]
-- [[MOC - Pessoas]]
+- [[PESSOAL]]
 - [[01-Plano-de-Seguranca/Rede de Apoio]] — profissional de saúde mental/física
 - [[01-Plano-de-Seguranca/Pontos Fortes]] — parte do suporte profissional

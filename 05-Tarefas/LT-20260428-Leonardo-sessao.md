@@ -4,7 +4,7 @@ status: completed
 priority: medium
 due: 2026-04-28
 project: [[PESSOAL]]
-person: [[03-Pessoas/Leonardo - Psicologo]]
+person: [[Leonardo - Psicologo]]
 tags:
   - pessoal
   - saude-mental
@@ -15,7 +15,7 @@ done: 2026-04-28
 
 # Sessão com Leonardo — 2026-04-28
 
-> Status: ✅ Concluída | Pessoa: [[03-Pessoas/Leonardo - Psicologo]]
+> Status: ✅ Concluída | Pessoa: [[Leonardo - Psicologo]]
 
 ## Descrição
 
@@ -29,6 +29,5 @@ Realizar a sessão com o psicólogo Leonardo e explicar como o sistema de notas 
 
 ## Ligações
 
-- [[03-Pessoas/Leonardo - Psicologo]]
-- [[MOC - Tarefas]]
+- [[Leonardo - Psicologo]]
 - [[01-Daily/2026-04-28]]

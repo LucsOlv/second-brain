@@ -1,6 +1,7 @@
 ---
 title: CEBRASPE
-type: projeto
+type: project
+area: work
 status: active
 priority: high
 start_date: 2026-04-27
@@ -11,21 +12,12 @@ tags:
   - azure
   - cti
   - cebraspe
-relacionado:
-  - MOC - Projetos
+related: []
 ---
 
 # CEBRASPE — Consultoria de TI
 
 > Status: 🔄 Ativo | Prioridade: 🔴 Alta | Cargo: Desenvolvedor Full Stack
-
-```yaml
-type: projeto
-status: active
-priority: high
-start_date: 2026-04-27
-tags: [trabalho, ti, fullstack, azure, cti, cebraspe]
-```
 
 ## 🎯 Sobre
 
@@ -69,9 +61,17 @@ Consultoria de TI onde atuo como **desenvolvedor full stack**. Desenvolvimento d
 
 ## 📝 Tarefas Activas
 
-| # | Descrição | Status | Sprint |
-|---|---|---|---|
-| ? | Melhoria de atendimento | 🔜 | [?] |
+| Tarefa | Status | Nota |
+|---|---|---|
+| [[05-Tarefas/FE-23278-CEBRASPE-bloquear-aba-pcd|FE-23278]] | ⏳ Pendente | Bloquear a aba PCD quando `UsaNovoModeloAvaliacaoPCD=1` |
+| [[05-Tarefas/CB-20260506-CEBRASPE-testar-isadmin|Testar isAdmin]] | ⏳ Pendente | Validar comportamento e registrar resultado |
+| [[05-Tarefas/FE-22389|FE-22389]] | ✅ Concluída | Subido para ambiente de desenvolvimento |
+| [[05-Tarefas/CB-20260428-Samanta-vpn-cebraspe|VPN com Samanta]] | ✅ Concluída | Pendência resolvida em 28/04/2026 |
+
+## 📝 Próxima Ação
+
+- [[05-Tarefas/FE-23278-CEBRASPE-bloquear-aba-pcd|FE-23278]] — iniciar implementação
+- [[05-Tarefas/CB-20260506-CEBRASPE-testar-isadmin|Testar isAdmin]] — validar fluxo atual
 
 ## 📝 Notas e Logs
 
@@ -80,12 +80,3 @@ Consultoria de TI onde atuo como **desenvolvedor full stack**. Desenvolvimento d
 | Data | Actividade | Nota |
 |---|---|---|
 | 2026-04-27 | Melhoria de atendimento | Primeira tarefa registada |
-
----
-
-## 🔗 Conectado a
-
-- [[MOC - Projetos]]
-- [[MOC - Tarefas]]
-- [[PRION]] — projeto de pesquisa pessoal (separado)
-- [[Hermes Agent]] — possível integração de lembretes

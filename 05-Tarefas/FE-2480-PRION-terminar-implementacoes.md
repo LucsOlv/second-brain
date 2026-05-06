@@ -31,7 +31,6 @@ Terminar as implementações pendentes do PRION e entregar/validar em dev hoje.
 ## Ligação
 
 - [[PRION]]
-- [[MOC - Projetos]]
 - [[01-Daily/2026-04-28]]
 - [[01-Daily/2026-04-29]]
-- [[MOC - Tarefas]]
+- [[01-Daily/2026-05-06]]

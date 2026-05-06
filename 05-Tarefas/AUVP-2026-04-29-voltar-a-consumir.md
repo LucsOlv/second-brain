@@ -27,6 +27,5 @@ Voltar a consumir o conteúdo do curso de investimento.
 
 ## Ligações
 
-- [[02-Projetos/AUVP]]
-- [[MOC - Tarefas]]
+- [[AUVP]]
 - [[01-Daily/2026-04-28]]

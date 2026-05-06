@@ -25,5 +25,8 @@ created: YYYY-MM-DD
 ## Regras
 
 - Toda tarefa linka a um projeto (exceto tarefas pessoais gerais)
-- Tarefas de alta prioridade = link para projeto relevante
+- Linkar pessoa apenas quando ela fizer parte real da execucao
+- Linkar daily apenas quando a tarefa foi criada, trabalhada ou concluida naquele dia
+- Manter `Recursos Necessarios` enxuto: projeto, pessoa, referencia externa e dailies relevantes
+- Evitar usar cada task como mini-MOC; backlinks e a nota do projeto devem fazer a navegacao principal
 - Revisar semanalmente via [[MOC - Tarefas]]

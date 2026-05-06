@@ -1,30 +1,22 @@
 ---
 title: Leonardo — Psicólogo
-type: pessoa
+type: person
 name: Leonardo
 role: Psicólogo
 contact:
 specialty: Estratégias concretas para gestão emocional e mental
 session_frequency: semanal
 next_session:
+last_contact: 2026-04-28
 tags:
   - saude-mental
   - profissional
   - acompanhamento
-related_projects:
-  - PESSOAL
+projects:
+  - [[PESSOAL]]
 ---
 
 # Leonardo — Psicólogo
-
-```yaml
-type: pessoa
-name: Leonardo
-role: Psicólogo
-contact:
-specialty: Estratégias concretas para gestão emocional e mental
-next_session:
-```
 
 ## 📋 Informações
 
@@ -57,6 +49,5 @@ next_session:
 
 ## 🔗 Conectado a
 
-- [[MOC - Saúde Mental]]
-- [[MOC - Pessoas]]
+- [[PESSOAL]]
 - [[01-Daily/2026-04-28]]

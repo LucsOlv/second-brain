@@ -33,4 +33,4 @@ O primeiro capítulo serve como introdução da revolução e apresenta o ambien
 ## 🔗 Ligações
 
 - [[01-Daily/2026-04-28]]
-- [[MOC - Projetos]]
+- [[01-Daily/2026-04-29]]

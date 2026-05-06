@@ -1,24 +1,18 @@
 ---
 title: PRION
-type: projeto
+type: project
+area: work
 status: active
 priority: high
 start_date: 2026-04-27
 tags: [trabalho, ti, fullstack]
-relacionado: [[MOC - Projetos]]
+related:
+  - [[CI&T]]
 ---
 
 # PRION — Desenvolvimento Full Stack
 
 > Status: 🔄 Ativo | Prioridade: 🔴 Alta | Cargo: Desenvolvedor Full Stack
-
-```yaml
-type: projeto
-status: active
-priority: high
-start_date: 2026-04-27
-tags: [trabalho, ti, fullstack]
-```
 
 ## 🎯 Sobre
 
@@ -62,7 +56,8 @@ Empresa/consultoria onde atuo como **desenvolvedor full stack**. Desenvolvimento
 
 ## 📝 Próxima Ação
 
-- [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] — entregar e validar em dev hoje
+- [[05-Tarefas/FE-2480-PRION-terminar-implementacoes|FE-2480]] — acompanhar retorno e fechar o ciclo
+- Organizar a transicao de saida para a [[CI&T]]
 
 ## 📝 Notas e Logs
 
@@ -71,12 +66,3 @@ Empresa/consultoria onde atuo como **desenvolvedor full stack**. Desenvolvimento
 | Data | Evento |
 |---|---|
 | 2026-04-27 | Tarefa #2539 concluída — melhoria de atendimento |
-
----
-
-## 🔗 Conectado a
-
-- [[MOC - Projetos]]
-- [[MOC - Tarefas]]
-- [[CEBRASPE]] — (empresa separada, mesmo cargo)
-- [[PaperCLI]] — útil para pesquisa técnica

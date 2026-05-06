@@ -27,7 +27,6 @@ Assistir pelo menos 2 aulas da pós-graduação e escrever um resumo.
 
 ## Ligações
 
-- [[02-Projetos/ONFIAP]]
+- [[ONFIAP]]
 - [[07-Ideias/Resumos/ONFIAP]]
-- [[MOC - Tarefas]]
 - [[01-Daily/2026-04-28]]

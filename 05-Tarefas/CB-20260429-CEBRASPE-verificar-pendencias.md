@@ -29,9 +29,7 @@ Verificar se o CEBRASPE precisa de algo hoje e identificar as próximas pendênc
 
 ## Recursos Necessários
 
-- [[02-Projetos/CEBRASPE]]
-- [[09-MOCs/MOC - Projetos]]
-- [[09-MOCs/MOC - Tarefas]]
+- [[CEBRASPE]]
 - [[01-Daily/2026-04-29]]
 
 ## Notas

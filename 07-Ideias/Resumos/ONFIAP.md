@@ -1,7 +1,7 @@
 ---
 title: ONFIAP — Resumos
 type: hub
-related_project: [[ONFIAP]]
+project: [[ONFIAP]]
 tags:
   - onfiap
   - resumo
@@ -15,6 +15,7 @@ Hub de resumos das aulas da pós-graduação.
 ## Índice
 
 - [[07-Ideias/Resumos/ONFIAP-2026-04-28]] — primeira entrada / espaço para o primeiro resumo
+- [[07-Ideias/Resumos/ONFIAP-2026-05-05]] — progresso em fine tuning, RAG e API
 
 ## Próximo passo
 

@@ -1,28 +1,20 @@
 ---
 title: PESSOAL
-type: projeto
+type: project
+area: personal
 status: active
 priority: medium
 start_date: 2026-04-27
 tags: [pessoal]
-relacionado:
-  - [[MOC - Projetos]]
+related:
   - [[ONFIAP]]
   - [[AUVP]]
-  - [[03-Pessoas/Ricardo - Nutrologo]]
+  - [[Ricardo - Nutrologo]]
 ---
 
 # PESSOAL — Projeto Pessoal
 
 > Status: 🔄 Em progresso | Prioridade: 🟡 Média
-
-```yaml
-type: projeto
-status: active
-priority: medium
-start_date: 2026-04-27
-tags: [pessoal]
-```
 
 ## 🎯 Objetivo
 
@@ -44,23 +36,12 @@ tags: [pessoal]
 
 | # | Descrição | Status | De |
 |---|---|---|---|
-| ? | [[ONFIAP]] — Ver 2 aulas + resumo | 🔜 Pendente | [[01-Daily/2026-04-27]] |
-| ? | [[AUVP]] — Voltar a consumir | 🔜 Pendente | [[01-Daily/2026-04-27]] |
-| ? | [[03-Pessoas/Ricardo - Nutrologo]] — Marcar consulta | 🔜 Pendente | [[01-Daily/2026-04-29]] |
-| ? | Lavar roupa | 🔜 Pendente | [[01-Daily/2026-04-29]] |
+| ? | [[05-Tarefas/ONFIAP-2026-04-29-2-aulas-resumo|ONFIAP — Ver 2 aulas + resumo]] | 🔜 Pendente | [[01-Daily/2026-04-27]] |
+| ? | [[05-Tarefas/AUVP-2026-04-29-voltar-a-consumir|AUVP — Voltar a consumir]] | 🔜 Pendente | [[01-Daily/2026-04-27]] |
+| ? | [[05-Tarefas/RI-20260429-Ricardo-marcar-consulta|Ricardo — Marcar consulta]] | 🔜 Pendente | [[01-Daily/2026-04-29]] |
 
 ## 📝 Notas e Logs
 
 <!-- Dúvidas, decisões, ideias durante o projeto -->
 
 - Cron jobs activos: lembrete a Ricardo 2x/dia (09h e 21h)
-
----
-
-## 🔗 Conectado a
-
-- [[MOC - Projetos]]
-- [[MOC - Tarefas]]
-- [[ONFIAP]] — curso online (tarefa activa)
-- [[AUVP]] — conteúdo audiovisual (tarefa activa)
-- [[03-Pessoas/Ricardo - Nutrologo]] — lembretes via cron

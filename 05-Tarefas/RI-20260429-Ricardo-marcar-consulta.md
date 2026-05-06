@@ -4,7 +4,7 @@ status: todo
 priority: medium
 due: 2026-04-29
 project: [[PESSOAL]]
-person: [[03-Pessoas/Ricardo - Nutrologo]]
+person: [[Ricardo - Nutrologo]]
 tags:
   - pessoal
   - saude
@@ -14,7 +14,7 @@ created: 2026-04-29
 
 # Ricardo — marcar consulta
 
-> Status: ⏳ Pendente | Projeto: [[PESSOAL]] | Pessoa: [[03-Pessoas/Ricardo - Nutrologo]]
+> Status: ⏳ Pendente | Projeto: [[PESSOAL]] | Pessoa: [[Ricardo - Nutrologo]]
 
 ## Descrição
 
@@ -29,10 +29,8 @@ Marcar consulta com o Ricardo (nutrólogo).
 
 ## Recursos Necessários
 
-- [[03-Pessoas/Ricardo - Nutrologo]]
-- [[02-Projetos/PESSOAL]]
-- [[09-MOCs/MOC - Pessoas]]
-- [[09-MOCs/MOC - Tarefas]]
+- [[Ricardo - Nutrologo]]
+- [[PESSOAL]]
 - [[01-Daily/2026-04-29]]
 
 ## Notas

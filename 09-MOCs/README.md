@@ -1,6 +1,6 @@
-# 🗺️ MOCs — Mapas de Conteúdo
+# MOCs — Mapas de Conteudo
 
-MOCs são hubs que agrupam e conectam notas relacionadas. São o coração navegacional do vault.
+MOCs sao pontos de entrada para navegacao manual. Eles nao precisam espelhar todo o vault nem aparecer como backlink obrigatorio em cada nota.
 
 ## MOCs Existentes
 
@@ -15,7 +15,7 @@ MOCs são hubs que agrupam e conectam notas relacionadas. São o coração naveg
 
 ## Regra
 
-Todo MOC deve linkar:
-1. Suas notas filhas
-2. MOCs relacionados
-3. O [[MOC - Home]]
+- Todo MOC deve curar apenas o que realmente ajuda a navegar
+- Notas normais nao precisam linkar de volta para varios MOCs
+- Preferir poucos MOCs curtos a varios hubs duplicados
+- O [[MOC - Home]] continua sendo a porta de entrada principal

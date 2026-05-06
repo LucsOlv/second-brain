@@ -1,10 +1,10 @@
 ---
 title: FE-2539 — Melhoria de Atendimento
-type: tarefa
+type: task
 status: completed
-projeto: "[[PRION]]"
-data_criacao: 2026-04-27
-data_conclusao: 2026-04-27
+project: [[PRION]]
+created: 2026-04-27
+done: 2026-04-27
 tags:
   - tarefa
   - prion
@@ -14,15 +14,6 @@ tags:
 # FE-2539 — Melhoria de Atendimento
 
 > ✅ **Concluída** em 27/04/2026
-
-```yaml
-type: tarefa
-status: completed
-projeto: PRION
-data_criacao: 2026-04-27
-data_conclusao: 2026-04-27
-tags: [tarefa, prion, desenvolvimento]
-```
 
 ## 📋 Descrição
 
@@ -42,10 +33,3 @@ tags: [tarefa, prion, desenvolvimento]
 <!-- Observações durante o desenvolvimento -->
 
 - Feito em [[01-Daily/2026-04-27]]
-
----
-
-## 🔗 Conectado a
-
-- [[PRION]] — Projeto principal
-- [[MOC - Tarefas]]

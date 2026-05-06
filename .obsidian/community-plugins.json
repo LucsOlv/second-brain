@@ -1,4 +1,7 @@
 [
   "obsidian-icon-folder",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "open-in-terminal",
+  "templater-obsidian",
+  "obsidian-git"
 ]

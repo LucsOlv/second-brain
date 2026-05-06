@@ -1,27 +1,24 @@
-# 🏠 MOC — Home
+# MOC — Home
 
-> Hub central do second brain. Navegue a partir daqui.
+Hub central do vault. Use esta nota para entrar no sistema; depois, deixe a navegacao seguir por projetos, tasks e backlinks.
 
-## 📁 MOCs por Área
+## Entrada Rapida
 
-- [[MOC - Projetos]] — Todos os projetos
-- [[MOC - Tarefas]] — Tarefas ativas
-- [[MOC - Saúde Mental]] — Bem-estar
-- [[MOC - Pessoas]] — Contatos e equipe
-- [[MOC - Lembretes]] — Lembretes recorrentes
-- [[MOC - Ideias]] — Banco de ideias
-- [[MOC - Referências]] — Material de estudo
+- [[00-Inbox/README|Inbox]] — captura rapida
+- [[01-Daily/README|Daily Notes]] — notas do dia
+- [[MOC - Projetos]] — projetos ativos e contexto continuo
+- [[MOC - Tarefas]] — shortlist de execucao
 
-## 📌 Atalhos Rápidos
+## Contextos
 
-- [[00-Inbox]] — Captura rápida
-- [[MOC - Projetos]] — Ver projetos ativos
-- [[MOC - Tarefas]] — Próximas tarefas
+- [[MOC - Referências]] — livros, temas e material de estudo
+- [[MOC - Saúde Mental]] — bem-estar e recursos de apoio
+- [[MOC - Pessoas]] — pessoas relevantes
+- [[MOC - Ideias]] — ideias e resumos
+- [[MOC - Lembretes]] — lembretes recorrentes
 
-## 🔗 Conexões Recentes
+## Fluxo Recomendado
 
-<!-- Linkar notas recentes aqui -->
-
-## 📅 Hoje
-
-Use [[01-Daily]] para notas do dia. Check-in de [[04-Saude-Mental]].
+1. Capturar o dia em [[01-Daily/README|Daily Notes]]
+2. Criar ou atualizar task quando algo exigir continuidade
+3. Atualizar a nota do projeto quando houver mudanca real de estado

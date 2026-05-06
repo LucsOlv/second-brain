@@ -1,29 +1,18 @@
-# 👥 MOC — Pessoas
+# MOC — Pessoas
 
-Contatos e pessoas importantes. Cada nota individual para detalhes.
+Indice simples das pessoas relevantes. O contexto deve ficar nas notas individuais e nos backlinks de projetos e dailies.
 
-## 🔗 Pessoas Cadastradas
+## Trabalho
 
-<!-- Adicionar links para notas de pessoas aqui -->
+- [[Anne]] — conversa sobre o novo desafio na [[CI&T]]
+- [[Samanta]] — contato do [[CEBRASPE]] ligado a suporte de VPN
 
-## 🎯 Pessoas Principais
+## Saude
 
-<!-- As pessoas mais importantes/ativos -->
-- [[Leonardo - Psicologo]] — Psicólogo (próxima consulta: **A definir**)
-- [[03-Pessoas/Ricardo - Nutrologo]] — Nutrologista (melhorar sono e energia)
+- [[Leonardo - Psicologo]] — acompanhamento psicologico
+- [[Ricardo - Nutrologo]] — sono, energia e acompanhamento fisico
 
-## 📅 Contatos Recentes
+## Navegacao
 
-<!-- Manter lista de últimos contatos -->
-
-## 🔗 Links
-
-- [[03-Pessoas/README|Pessoas]] — Pasta com todas as notas
-- [[MOC - Projetos]] — Projetos por pessoa
-- [[MOC - Home]] — Voltar ao hub
-
-## 💡 Tips
-
-- Manter `last_contact` atualizado
-- Linkar pessoa ↔ projeto quando aplicável
-- Adicionar contexto (onde se conheceram, interesses)
+- [[03-Pessoas/README|Pasta de pessoas]]
+- [[MOC - Home]]

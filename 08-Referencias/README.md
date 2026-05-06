@@ -27,6 +27,8 @@ related_notes:
 - `video` — YouTube, aula, talk
 - `podcast` — episódio de podcast
 - `course` — curso online
+- `concept` — conceito ou tópico de estudo
+- `meeting` — tipo de reunião/processo recorrente
 
 ## Regras
 
